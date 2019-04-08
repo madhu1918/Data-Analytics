@@ -1,0 +1,166 @@
+ [{
+	"title": "Quiz-10",
+	"activityType": "quiz",
+	"quizDescription": [
+		{
+				"text": "Now, let's make some plots to help us better understand how crime has changed over time in Chicago. Throughout this problem, and in general, you can save your plot to a file. For more information, <a href=\"http://www.stat.berkeley.edu/~s133/saving.html\">this website</a> very clearly explains the process.<br>First, let's make a histogram of the variable Date. We'll add an extra argument, to specify the number of bars we want in our histogram. In your R console, type<br>hist(mvt$Date, breaks=100)<br>Looking at the histogram, answer the following questions."
+			}
+	],
+	"questions": [
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "In general, does it look like crime increases or decreases from 2002 - 2012?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "Increases",
+					"correct": "False"
+				},
+
+				{
+					"option": "Decreases",
+					"correct": "True"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "In general, does it look like crime increases or decreases from 2005 - 2008?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "Increases",
+					"correct": "False"
+				},
+
+				{
+					"option": "Decreases",
+					"correct": "True"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "In general, does it look like crime increases or decreases from 2009 - 2011?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "Increases",
+					"correct": "True"
+				},
+
+				{
+					"option": "Decreases",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+			{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Now, let's see how arrests have changed over time. Create a boxplot of the variable \"Date\", sorted by the variable \"Arrest\" (if you are not familiar with boxplots and would like to learn more, check out this <a href=\"http://www.r-bloggers.com/box-plot-with-r-tutorial/\">tuitorial.</a>In a boxplot, the bold horizontal line is the median value of the data, the box shows the range of values between the first quartile and third quartile, and the whiskers (the dotted lines extending outside the box) show the minimum and maximum values, excluding any outliers (which are plotted as circles). Outliers are defined by first computing the difference between the first and third quartile values, or the height of the box. This number is called the Inter-Quartile Range (IQR). Any point that is greater than the third quartile plus the IQR or less than the first quartile minus the IQR is considered an outlier.<br><br>Does it look like there were more crimes for which arrests were made in the first half of the time period or the second half of the time period? (Note that the time period is from 2001 to 2012, so the middle of the time period is the beginning of 2007.)"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "First half",
+					"correct": "True"
+				},
+
+				{
+					"option": "Second half",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Let's investigate this further. Use the table function for the next few questions.<br>For what proportion of motor vehicle thefts in 2001 was an arrest made?<br>Note: in this question and many others in the course, we are asking for an answer as a proportion. Therefore, your answer should take a value between 0 and 1."
+
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "0.1041171",
+					"correct": "False"
+				},
+
+				{
+					"option": "0.1041172",
+					"correct": "False"
+				},
+				{
+					"option": "0.1041173",
+					"correct": "True"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "For what proportion of motor vehicle thefts in 2007 was an arrest made?"
+
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "0.08487394",
+					"correct": "False"
+				},
+
+				{
+					"option": "0.08487395",
+					"correct": "True"
+				},
+				{
+					"option": "0.08487396",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "For what proportion of motor vehicle thefts in 2012 was an arrest made?"
+
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "0.03902924",
+					"correct": "True"
+				},
+
+				{
+					"option": "0.03902925",
+					"correct": "False"
+				},
+				{
+					"option": "0.03902926",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+}]

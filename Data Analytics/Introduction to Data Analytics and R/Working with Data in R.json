@@ -1,0 +1,11 @@
+[
+	{
+	"title":"Working with Data in R",
+	"activityType": "reading",
+	"quizDescription": [
+		{
+			"text": "we'll be using the data <a href=\"https://prod-edxapp.edx-cdn.org/assets/courseware/v1/3ef78a720083c74cd2649289a475158d/asset-v1:MITx+15.071x+3T2018+type@asset+block/USDA.csv\">USDA.csv</a>.  lease download this dataset and save it to your computer in a location that you will remember. This data comes from the <a href=\"https://ndb.nal.usda.gov/ndb/\">USDA National Nutrient Database for Standard Reference.</a>"
+		}
+	]
+	}
+]

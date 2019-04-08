@@ -1,0 +1,50 @@
+ [{
+	"title": "Quiz-7",
+	"activityType": "quiz",
+	"quizDescription": [
+		{
+		"text":"Please answer the following questions using the entire data frame WHO (and not one of the subsets we have created in R)."
+	}
+	],
+	"questions": [
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Use the tapply function to find the average child mortality rate of countries in each region. Which region has the lowest average child mortality rate across all countries in that region?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "Africa",
+					"correct": "False"
+				},
+
+				{
+					"option": "Americas",
+					"correct": "False"
+				},
+
+				{
+					"option": "Eastern Mediterranean",
+					"correct": "False"
+				},
+				{
+					"option": "Europe",
+					"correct": "True"
+				},
+
+				{
+					"option": "South-East Asia",
+					"correct": "False"
+				},
+
+				{
+					"option": "Western Pacific",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+}]

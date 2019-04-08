@@ -1,0 +1,60 @@
+ [{
+	"title": "Quiz-5",
+	"activityType": "quiz",
+	"quizDescription": [
+		{
+		"text":"<b>Choose the correct answer below</b>"
+	}
+	],
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "If you want to know the mean value of a numerical variable, which function could you use?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "str",
+					"correct": "False"
+				},
+
+				{
+					"option": "summary",
+					"correct": "True"
+				},
+
+				{
+					"option": "I can't figure out this information using either of these functions.",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "If you want to know the standard deviation of a numerical variable, which function could you use?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "str",
+					"correct": "False"
+				},
+
+				{
+					"option": "summary",
+					"correct": "False"
+				},
+
+				{
+					"option": "I can't figure out this information using either of these functions.",
+					"correct": "True"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+}]

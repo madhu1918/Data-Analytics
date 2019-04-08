@@ -1,0 +1,36 @@
+ [{
+ 	"title": "Quiz-6",
+ 	"activityType": "quiz",
+ 	"quizDescription": [{
+ 		"text": "Quiz :If a baseball team scores 713 runs and allows 614 runs, how many games do we expect the team to win?"
+ 	}],
+ 	"questions": [{
+ 		"questionType": "mcq",
+ 		"questionText": [{
+ 				"text": "Using the linear regression model constructed during the lecture, enter the number of games we expect the team to win:"
+ 			}
+
+ 		],
+ 		"max_marks": 1,
+ 		"options": [{
+ 				"option": "100",
+ 				"correct": "False"
+ 			},
+
+ 			{
+ 				"option": "91",
+ 				"correct": "True"
+ 			},
+ 			{
+ 				"option": "78",
+ 				"correct": "False"
+ 			},
+ 			{
+ 				"option": "57",
+ 				"correct": "False"
+ 			}
+ 		],
+ 		"correct_feedback": "Correct",
+ 		"wrong_feedback": "Incorrect"
+ 	}]
+ }]

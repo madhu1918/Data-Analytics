@@ -1,0 +1,40 @@
+ [{
+ 	"title": "Quiz-7",
+ 	"activityType": "quiz",
+ 	"quizDescription": [{
+ 		"text": "Quiz"
+ 	}],
+ 	"questions": [{
+ 		"questionType": "checkbox",
+ 		"questionText": [{
+ 				"text": "Suppose you are the General Manager of a baseball team, and you are selecting TWO players for your team. You have a budget of $1,500,000, and you have the choice between the following players:<br>Player Name OBP SLG Salary<br>Eric Chavez 0.338 0.540 $1,400,000<br>Jeremy Giambi 0.391 0.450 $1,065,000<br>Frank Menechino 0.369 0.374 $295,000<br>Greg Myers 0.313 0.447 $800,000<br>Carlos Pena 0.361 0.500 $300,000<br><br>Given your budget and the player statistics, which TWO players would you select?"
+ 			}
+
+ 		],
+ 		"max_marks": 1,
+ 		"options": [{
+ 				"option": "Eric Chavez",
+ 				"correct": "False"
+ 			},
+
+ 			{
+ 				"option": "Jeremy Giambi",
+ 				"correct": "True"
+ 			},
+ 			{
+ 				"option": "Frank Menechino",
+ 				"correct": "False"
+ 			},
+ 			{
+ 				"option": "Greg Myers",
+ 				"correct": "False"
+ 			},
+ 			{
+ 				"option": "Carlos Pena",
+ 				"correct": "True"
+ 			}
+ 		],
+ 		"correct_feedback": "Correct",
+ 		"wrong_feedback": "Incorrect"
+ 	}]
+ }]

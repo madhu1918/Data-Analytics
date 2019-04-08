@@ -1,0 +1,40 @@
+ [{
+	"title": "Quiz-3",
+	"activityType": "quiz",
+	"quizDescription": [
+		{
+		"text":"<b>Choose the correct answer below</b>"
+	}
+	],
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Which of the following are recommended variable names in R?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "SquareRoot2",
+					"correct": "True"
+				},
+
+				{
+					"option": "Square Root2",
+					"correct": "False"
+				},
+
+				{
+					"option": "Square2.Root",
+					"correct": "True"
+				},
+
+				{
+					"option": "2SquareRoot",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+}]

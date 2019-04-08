@@ -1,0 +1,16 @@
+[
+	{
+	"title":"Data Binding",
+	"activityType": "reading",
+	"quizDescription": [
+		{
+			"text": "we'll be using the data file <a href=\"https://prod-edxapp.edx-cdn.org/assets/courseware/v1/ccdc87b80d92a9c24de2f04daec5bb58/asset-v1:MITx+15.071x+3T2018+type@asset+block/WHO.csv\">WHO.csv</a>.  Please download this file to your computer, and save it to a location that you will remember. This data comes from the <a href=\"http://apps.who.int/gho/data/node.main\">Global Health Observatory Data Repository.</a>"
+		}
+	]
+	},
+	{
+		"title":"Video on Data Binding",
+		"activityType":"youtubevideo",
+		"videoURL":"EI7WQn9vTQc"
+	}
+]

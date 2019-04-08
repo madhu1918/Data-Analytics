@@ -1,0 +1,59 @@
+ [{
+ 	"title": "Quiz-5",
+ 	"activityType": "quiz",
+ 	"quizDescription": [{
+ 		"text": "Quiz : Use the dataset wine.csv to create a linear regression model to predict Price using HarvestRain and WinterRain as independent variables, like you did in the previous quick question. Using the summary output of this model, answer the following questions:"
+ 	}],
+ 	"questions": [{
+ 			"questionType": "mcq",
+ 			"questionText": [{
+ 					"text": "Is the coefficient for HarvestRain significant?"
+ 				}
+
+ 			],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "Yes ",
+ 					"correct": "True"
+ 				},
+
+ 				{
+ 					"option": "No",
+ 					"correct": "False"
+ 				},
+ 				{
+ 					"option": "I can't answer this question using the summary output.",
+ 					"correct": "False"
+ 				}
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		},
+ 		{
+ 			"questionType": "mcq",
+ 			"questionText": [{
+ 					"text": "Is the coefficient for WinterRain significant?"
+ 				}
+
+ 			],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "Yes",
+ 					"correct": "False"
+ 				},
+
+ 				{
+ 					"option": "No",
+ 					"correct": "False"
+ 				},
+ 				{
+ 					"option": "I can't answer this question using the summary output",
+ 					"correct": "False"
+ 				}
+
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		}
+ 	]
+ }]

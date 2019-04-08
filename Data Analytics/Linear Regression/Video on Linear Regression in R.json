@@ -1,0 +1,16 @@
+[
+	{
+		"title":"Video on Linear Regression in R",
+		"activityType":"youtubevideo",
+		"videoURL":"zC85i-a1rI0"
+	},
+	{
+	"title":"Linear Regression in R",
+	"activityType": "reading",
+	"quizDescription": [
+		{
+			"text": "Before starting this video, please download the datasets <a href=\"https://prod-edxapp.edx-cdn.org/assets/courseware/v1/834e8a91ad31bfcdf317bf6356b808f2/asset-v1:MITx+15.071x+3T2018+type@asset+block/wine.csv\">wine.csv</a> and <a href=\"https://prod-edxapp.edx-cdn.org/assets/courseware/v1/11433f68d6c74e205f3dfa73dc4711c3/asset-v1:MITx+15.071x+3T2018+type@asset+block/wine_test.csv\">wine_test.csv</a>.  Save them to a folder on your computer that you will remember, and in R, navigate to this folder (File->Change dir... on a PC, and Misc->Change Working Directory on a Mac)"
+		}
+	]
+	}
+]

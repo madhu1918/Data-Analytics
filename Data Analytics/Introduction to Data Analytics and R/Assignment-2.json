@@ -1,0 +1,586 @@
+[{
+	"title": "Stock dynamics",
+	"activityType": "quiz",
+	"quizDescription": [{
+		"text": "A stock market is where buyers and sellers trade shares of a company, and is one of the most popular ways for individuals and companies to invest money. The size of the world stock market  is now estimated to be in the trillions. The largest stock market in the world is the New York Stock Exchange (NYSE), located in New York City. About 2,800 companies are listed on the NYSE. In this problem, we'll look at the monthly stock prices of five of these companies:<a href=\"https://www.ibm.com/in-en/?ar=1\">IBM</a>, <a href=\"https://www.ge.com/\">General Electric(GE)</a>,<a href=\"https://www.pg.com/en_IN/\">Procter and Gamble</a>,<a href=\"https://www.coca-cola.com/\">Coca Cola</a> and <a href=\"http://www.boeing.com/\"> Boeing</a>. The data used in this problem comes from <a href=\"http://www.infochimps.com/\">Infochimps.</a><br><br>Download and read the following files into R, using the read.csv function:<a href=\"https://prod-edxapp.edx-cdn.org/assets/courseware/v1/4fc08d10f171aacf2ef61c6b4b5bb4d8/asset-v1:MITx+15.071x+3T2018+type@asset+block/IBMStock.csv\"> IBMStock.csv</a>,<a href=\"https://prod-edxapp.edx-cdn.org/assets/courseware/v1/448b8be4693d913c2b5153be0c0e25d6/asset-v1:MITx+15.071x+3T2018+type@asset+block/GEStock.csv\">GEStock.cs</a>,<a href=\"https://prod-edxapp.edx-cdn.org/assets/courseware/v1/bb6ed54230b5b2e29fb66819ed535da0/asset-v1:MITx+15.071x+3T2018+type@asset+block/ProcterGambleStock.csv\">ProcterGambleStock.csv</a>,<a href=\"https://prod-edxapp.edx-cdn.org/assets/courseware/v1/4c30fd7f4f55e537989ca13a6db36289/asset-v1:MITx+15.071x+3T2018+type@asset+block/CocaColaStock.csv\">CocaColaStock.csv</a> and <a href=\"https://prod-edxapp.edx-cdn.org/assets/courseware/v1/2e8c9fb294db48e5a999c747b317722d/asset-v1:MITx+15.071x+3T2018+type@asset+block/BoeingStock.csv\">BoeingStock.csv</a>(Do not open these files in any spreadsheet software before completing this problem because it might change the format of the Date field.)Call the data frames \"IBM\", \"GE\", \"ProcterGamble\", \"CocaCola\", and \"Boeing\", respectively. Each data frame has two variables, described as follows:<ul><li>Date: the date of the stock price, always given as the first of the month.<brStockPrice: the average stock price of the company in the given month."
+	}],
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "In this problem, we'll take a look at how the stock dynamics of these companies have changed over time.<br><br>Problem : Before working with these data sets, we need to convert the dates into a format that R can understand. Take a look at the structure of one of the datasets using the str function. Right now, the date variable is stored as a factor. We can convert this to a \"Date \" object in R by using the following five commands (one for each data set):<br>IBM$Date = as.Date(IBM$Date, \" % m / % d / % y \")<br>GE$Date = as.Date(GE$Date, \" % m / % d / % y \")<br>CocaCola$Date = as.Date(CocaCola$Date, \" % m / % d / % y \")<br>ProcterGamble$Date = as.Date(ProcterGamble$Date, \" % m / % d / % y \")<br>Boeing$Date = as.Date(Boeing$Date, \" % m / % d / % y \")<br>The first argument to the as.Date function is the variable we want to convert, and the second argument is the format of the Date variable. We can just overwrite the original Date variable values with the output of this function. Now, answer the following questions using the sd, str, and summary functions.<br><br>Our five datasets all have the same number of observations. How many observations are there in each data set?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "490 ",
+					"correct": "False"
+				},
+				{
+					"option": "480",
+					"correct": "True"
+				},
+				{
+					"option": "460",
+					"correct": "False"
+				},
+				{
+					"option": "450",
+					"correct": "False"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Problem : Summary Statistics : What is the earliest year in our datasets?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "1970",
+					"correct": "True"
+				},
+				{
+					"option": "1980",
+					"correct": "False"
+				},
+				{
+					"option": "1990",
+					"correct": "False"
+				},
+				{
+					"option": "1969",
+					"correct": "False"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Problem : Summary Statistics : What is the latest year in our datasets?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "2001",
+					"correct": "False"
+				},
+				{
+					"option": "2005",
+					"correct": "False"
+				},
+				{
+					"option": "2009",
+					"correct": "True"
+				},
+				{
+					"option": "2010",
+					"correct": "False"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq ",
+			"questionText": [{
+				"text": "Problem :  Summary Statistics : What is the mean stock price of IBM over this time period?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "144.33",
+					"correct": "False"
+				},
+				{
+					"option": "144.35",
+					"correct": "False"
+				},
+				{
+					"option": "144.38",
+					"correct": "True"
+				},
+				{
+					"option": "144.39",
+					"correct": "False"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Problem 1.5 - Summary Statistics : What is the minimum stock price of General Electric (GE) over this time period?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "8.294",
+					"correct": "False"
+				},
+				{
+					"option": "9.294",
+					"correct": "True"
+				},
+				{
+					"option": "10.294",
+					"correct": "False"
+				},
+				{
+					"option": "11.294",
+					"correct": "False"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Problem : Summary Statistics  : What is the maximum stock price of Coca-Cola over this time period?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "143.58",
+					"correct": "False"
+				},
+				{
+					"option": "147.58",
+					"correct": "False"
+				},
+				{
+					"option": "145.58",
+					"correct": "False"
+				},
+				{
+					"option": "146.58",
+					"correct": "True"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Problem 1.7 - Summary Statistics : What is the median stock price of Boeing over this time period?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "44.88",
+					"correct": "True"
+				},
+				{
+					"option": "45.88",
+					"correct": "False"
+				},
+				{
+					"option": "46.88",
+					"correct": "False"
+				},
+				{
+					"option": "47.88",
+					"correct": "False"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Problem  - Summary Statistics : What is the standard deviation of the stock price of Procter & Gamble over this time period?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "18.19417",
+					"correct": "False"
+				},
+				{
+					"option": "18.19416",
+					"correct": "False"
+				},
+				{
+					"option": "18.19415",
+					"correct": "False"
+				},
+				{
+					"option": "18.19414",
+					"correct": "True"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Problem  - Visualizing Stock Dynamics<br>Let's plot the stock prices to see if we can visualize trends in stock prices during this time period. Using the plot function, plot the Date on the x-axis and the StockPrice on the y-axis, for Coca-Cola. This plots our observations as points, but we would really like to see a line instead, since this is a continuous time period. To do this, add the argument type=\"l\" to your plot command, and re-generate the plot (the character is quotes is the letter l, for line). You should now see a line plot of the Coca-Cola stock price. Around what year did Coca-Cola has its highest stock price in this time period?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "1973",
+					"correct": "True"
+				},
+				{
+					"option": "1980",
+					"correct": "False"
+				},
+				{
+					"option": "1985",
+					"correct": "False"
+				},
+				{
+					"option": "1995",
+					"correct": "False"
+				},
+				{
+					"option": "2008",
+					"correct": "False"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Around what year did Coca-Cola has its lowest stock price in this time period?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "1973",
+					"correct": "False"
+				},
+				{
+					"option": "1980",
+					"correct": "True"
+				},
+				{
+					"option": "1985",
+					"correct": "False"
+				},
+				{
+					"option": "1995",
+					"correct": "False"
+				},
+				{
+					"option": "2008",
+					"correct": "False"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Problem  - Visualizing Stock Dynamics<br>Now, let's add the line for Procter & Gamble too. You can add a line to a plot in R by using the lines function instead of the plot function. Keeping the plot for Coca-Cola open, type in your R console:lines(ProcterGamble$Date, ProcterGamble$StockPrice)Unfortunately, it's hard to tell which line is which. Let's fix this by giving each line a color. First, re-run the plot command for Coca-Cola, but add the argument col=\"red \". You should see the plot for Coca-Cola show up again, but this time in red. Now, let's add the Procter & Gamble line (using the lines function like we did before), adding the argument col=\"blue\". You should now see in your plot the Coca-Cola stock price in red, and the Procter & Gamble stock price in blue. As an alternative choice to changing the colors, you could instead change the line type of the Procter & Gamble line by adding the argument lty=2. This will make the Procter & Gamble line dashed. Using this plot, answer the following questions.<br>In March of 2000, the technology bubble burst, and a stock market crash occurred. According to this plot, which company's stock dropped more?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "Coca-Cola",
+					"correct": "False"
+				},
+				{
+					"option": "Procter and Gamble",
+					"correct": "True"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Problem - Visualizing Stock Dynamics : Answer these questions using the plot you generated in the previous problem.Around 1983, the stock for one of these companies (Coca-Cola or Procter and Gamble) was going up, while the other was going down. Which one was going up?<br><br>[  To answer this question and the ones that follow, you may find it useful to draw a vertical line at a certain date. To do this, type the command abline(v=as.Date(c(\"2000-03-01\")), lwd=2) in your R console, with the plot still open. This generates a vertical line at the date March 1, 2000. The argument lwd=2 makes the line a little thicker. You can change the date in this command to generate the vertical line in different locations.]"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "Coca-Cola",
+					"correct": "True"
+				},
+				{
+					"option": "Procter and Gamble",
+					"correct": "False"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "In the time period shown in the plot, which stock generally has lower values?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "Coca-Cola",
+					"correct": "True"
+				},
+				{
+					"option": "Procter and Gamble",
+					"correct": "False"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Problem : Visualizing Stock Dynamics : Let's take a look at how the stock prices changed from 1995-2005 for all five companies. In your R console, start by typing the following plot command: plot(CocaCola$Date[301:432], CocaCola$StockPrice[301:432], type=\"l \", col=\"red \", ylim=c(0,210))This will plot the CocaCola stock prices from 1995 through 2005, which are the observations numbered from 301 to 432. The additional argument, ylim=c(0,210), makes the y-axis range from 0 to 210. This will allow us to see all of the stock values when we add in the other companies.Now, use the lines function to add in the other four companies, remembering to only plot the observations from 1995 to 2005, or [301:432]. You don't need the \"type \" or \"ylim \" arguments for the lines function, but remember to make each company a different color so that you can tell them apart. Some color options are \"red \", \"blue \", \"green \", \"purple \", \"orange \", and \"black \". To see all of the color options in R, type colors() in your R console.(If you prefer to change the type of the line instead of the color, here are some options for changing the line type: lty=2 will make the line dashed, lty=3 will make the line dotted, lty=4 will make the line alternate between dashes and dots, and lty=5 will make the line long-dashed.)Use this plot to answer the following four questions.Which stock fell the most right after the technology bubble burst in March 2000?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "Coca-Cola",
+					"correct": "False"
+				},
+				{
+					"option": "Procter and Gamble",
+					"correct": "False"
+				},
+				{
+					"option": "IBM",
+					"correct": "False"
+				},
+				{
+					"option": "General Electric (GE)",
+					"correct": "True"
+				},
+				{
+					"option": "Boeing",
+					"correct": "False"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Problem : Visualizing Stock Dynamics 1995-2005<br>Which stock reaches the highest value in the time period 1995-2005?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "Coca-Cola",
+					"correct": "False"
+				},
+				{
+					"option": "Procter and Gamble",
+					"correct": "False"
+				},
+				{
+					"option": "IBM",
+					"correct": "True"
+				},
+				{
+					"option": "General Electric (GE)",
+					"correct": "False"
+				},
+				{
+					"option": "Boeing",
+					"correct": "False"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "checkbox",
+			"questionText": [{
+				"text": "Problem  - Visualizing Stock Dynamics 1995-2005<br>In October of 1997, there was a global stock market crash that was caused by an economic crisis in Asia. Comparing September 1997 to November 1997, which companies saw a decreasing trend in their stock price? (Select all that apply.)"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "Coca-Cola",
+					"correct": "False"
+				},
+				{
+					"option": "Procter and Gamble",
+					"correct": "True"
+				},
+				{
+					"option": "IBM",
+					"correct": "False"
+				},
+				{
+					"option": "General Electric (GE)",
+					"correct": "False"
+				},
+				{
+					"option": "Boeing",
+					"correct": "True"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Problem - Visualizing Stock Dynamics 1995-2005<br>In the last two years of this time period (2004 and 2005) which stock seems to be performing the best, in terms of increasing stock price?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "Coca-Cola",
+					"correct": "False"
+				},
+				{
+					"option": "Procter and Gamble",
+					"correct": "False"
+				},
+				{
+					"option": "IBM",
+					"correct": "False"
+				},
+				{
+					"option": "General Electric (GE)",
+					"correct": "False"
+				},
+				{
+					"option": "Boeing",
+					"correct": "True"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "checkbox",
+			"questionText": [{
+				"text": "Problem- Monthly Trends<br>Lastly, let's see if stocks tend to be higher or lower during certain months. Use the tapply command to calculate the mean stock price of IBM, sorted by months. To sort by months, use months(IBM$Date)as the second argument of the tapply function.<br>For IBM, compare the monthly averages to the overall average stock price. In which months has IBM historically had a higher stock price (on average)? Select all that apply."
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "January",
+					"correct": "True"
+				},
+				{
+					"option": "February",
+					"correct": "True"
+				},
+				{
+					"option": "March",
+					"correct": "True"
+				},
+				{
+					"option": "April",
+					"correct": "True"
+				},
+				{
+					"option": "May",
+					"correct": "True"
+				},
+				{
+					"option": "June",
+					"correct": "False"
+				},
+				{
+					"option": "July",
+					"correct": "False"
+				},
+				{
+					"option": "August",
+					"correct": "False"
+				},
+				{
+					"option": "September",
+					"correct": "False"
+				},
+				{
+					"option": "October",
+					"correct": "False"
+				},
+				{
+					"option": "November",
+					"correct": "False"
+				},
+				{
+					"option": "December",
+					"correct": "False"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Problem - Monthly Trends<br>Repeat the tapply function from the previous problem for each of the other four companies, and use the output to answer the remaining questions.General Electric and Coca-Cola both have their highest average stock price in the same month. Which month is this?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "January",
+					"correct": "False"
+				},
+				{
+					"option": "February",
+					"correct": "False"
+				},
+				{
+					"option": "March",
+					"correct": "False"
+				},
+				{
+					"option": "April",
+					"correct": "True"
+				},
+				{
+					"option": "May",
+					"correct": "False"
+				},
+				{
+					"option": "June",
+					"correct": "False"
+				},
+				{
+					"option": "July",
+					"correct": "False"
+				},
+				{
+					"option": "August",
+					"correct": "False"
+				},
+				{
+					"option": "September",
+					"correct": "False"
+				},
+				{
+					"option": "October",
+					"correct": "False"
+				},
+				{
+					"option": "November",
+					"correct": "False"
+				},
+				{
+					"option": "December",
+					"correct": "False"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Problem  - Monthly Trends<br>For the months of December and January, every company's average stock is higher in one month and lower in the other. In which month are the stock prices lower?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "December",
+					"correct": "True"
+				},
+				{
+					"option": "January",
+					"correct": "False"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+
+
+}]

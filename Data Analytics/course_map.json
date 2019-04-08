@@ -3,8 +3,7 @@
     "learningObjectives": [],
     "overview": [],
     "title": "Data Analytics",
-    "units": [
-        {
+    "units": [{
             "activities": [
                 "An Introduction to Analytics",
                 "Introduction to The Analytics Edge",
@@ -24,11 +23,8 @@
                 "Quiz-5",
                 "Data Analysis - Summary Statistics and Scatterplots",
                 "Quiz-6",
-                "Quiz-7",
-                "Quiz-8",
-                "Quiz-9",
                 "Data Analysis - Plots and Summary Tables",
-                "Quiz-10",
+                "Quiz-7",
                 "Saving with Script Files",
                 "Welcome to Recitation 1",
                 "The Importance of Food and Nutrition",
@@ -38,13 +34,53 @@
                 "Adding Variables",
                 "Summary Tables",
                 "An Analytical Detective",
+                "Quiz-8",
+                "Quiz-9",
+                "Quiz-10",
                 "Quiz-11",
-                "Quiz-12",
-                "Quiz-13",
-                "Quiz-14"
+                "Assignment-1",
+                "Assignment-2",
+                "Assignment-3",
+                "Assignment-4",
+                "Group Discussion"
             ],
             "learningObjectives": [],
             "overview": [],
-            "title": "Module-1"
-        }]
+            "title": "Introduction to Data Analytics and R"
+        },
+        {
+            "activities": [
+                "Video on Introduction to Linear Regression",
+                "Video on Predicting the Quality of Wine",
+                "Quiz-1",
+                "Video on One-Variable Linear Regression",
+                "Quiz-2",
+                "Video on Multiple Linear Regression",
+                "Quiz-3",
+                "Video on Linear Regression in R",
+                "Quiz-4",
+                "Video on Understanding the Model",
+                "Quiz-5",
+                "Video on Correlation and Multicollinearity",
+                "Video on Making Predictions",
+                "Video on Comparing the Model to the Experts",
+                "Video on A Quick Introduction to Baseball",
+                "Video on The Story of Moneyball",
+                "Video on Making it to the Playoffs",
+                "Quiz-6",
+                "Video on Predicting Runs",
+                "Video on Using the Models to Make Predictions",
+                "Quiz-7",
+                "Video on Winning the World Series",
+                "Quiz-8",
+                "Video on The Analytics Edge in Sports",
+                "Assignment-1",
+                "Assignment-2",
+                "Assignment-3"
+            ],
+            "learningObjectives": [],
+            "overview": [],
+            "title": "Linear Regression"
+        }
+    ]
 }

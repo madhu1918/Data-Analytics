@@ -1,0 +1,219 @@
+ [{
+ 	"title": " Visualizing Crime Trends",
+ 	"activityType": "quiz",
+ 	"quizDescription": [{
+ 		"text": "a. Create a subset of your data, only taking observations for which the theft happened in one of these five locations, and call this new data set \"Top5\". To do this, you can use the | symbol. In lecture, we used the & symbol to use two criteria to make a subset of the data. To only take observations that have a certain value in one variable or the other, the | character can be used in place of the & symbol. This is also called a logical \"or\" operation.<br><br>Alternately, you could create five different subsets, and then merge them together into one data frame using rbind.<br><br><br>b. R will remember the other categories of the LocationDescription variable from the original dataset, so running table(Top5$LocationDescription) will have a lot of unnecessary output. To make our tables a bit nicer to read, we can refresh this factor variable. In your R console, type:<br>Top5$LocationDescription = factor(Top5$LocationDescription)<br>If you run the str or table function on Top5 now, you should see that LocationDescription now only has 5 values, as we expect.<br>Use the Top5 data frame to answer the remaining questions.<br>One of the locations has a much higher arrest rate than the other locations. Which is it?"
+ 	}],
+ 	"questions": [{
+ 			"questionType": "mcq",
+ 			"questionText": [{
+ 				"text": "Now, let's make some plots to help us better understand how crime has changed over time in Chicago. Throughout this problem, and in general, you can save your plot to a file. For more information, <a href=\"https://www.stat.berkeley.edu/~s133/saving.html\">this website</a>. very clearly explains the process.<br><br>First, let's make a histogram of the variable Date. We'll add an extra argument, to specify the number of bars we want in our histogram. In your R console, type<br><br>hist(mvt$Date, breaks=100)<br><br>Looking at the histogram, answer the following questions.<br><br>In general, does it look like crime increases or decreases from 2002 - 2012?"
+ 			}],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "Increases",
+ 					"correct": "False"
+ 				},
+ 				{
+ 					"option": "Decreases",
+ 					"correct": "True"
+ 				}
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		},
+ 		{
+ 			"questionType": "mcq",
+ 			"questionText": [{
+ 				"text": "In general, does it look like crime increases or decreases from 2005 - 2008?"
+ 			}],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "Increases",
+ 					"correct": "False"
+ 				},
+ 				{
+ 					"option": "Decreases",
+ 					"correct": "True"
+ 				}
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		},
+ 		{
+ 			"questionType": "mcq",
+ 			"questionText": [{
+ 				"text": "In general, does it look like crime increases or decreases from 2009 - 2011?"
+ 			}],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "Increases",
+ 					"correct": "True"
+ 				},
+ 				{
+ 					"option": "Decreases ",
+ 					"correct": "False"
+ 				}
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		},
+ 		{
+ 			"questionType": "mcq",
+ 			"questionText": [{
+ 				"text": "Now, let's see how arrests have changed over time. Create a boxplot of the variable \"Date\", sorted by the variable \"Arrest\" (if you are not familiar with boxplots and would like to learn more, check out this <a href=\"https://www.r-bloggers.com/box-plot-with-r-tutorial/\">tuitorial</a>In a boxplot, the bold horizontal line is the median value of the data, the box shows the range of values between the first quartile and third quartile, and the whiskers (the dotted lines extending outside the box) show the minimum and maximum values, excluding any outliers (which are plotted as circles). Outliers are defined by first computing the difference between the first and third quartile values, or the height of the box. This number is called the Inter-Quartile Range (IQR). Any point that is greater than the third quartile plus the IQR or less than the first quartile minus the IQR is considered an outlier. <br><br> Does it look like there were more crimes for which arrests were made in the first half of the time period or the second half of the time period? (Note that the time period is from 2001 to 2012, so the middle of the time period is the beginning of 2007.)."
+ 			}],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "First half",
+ 					"correct": "True"
+ 				},
+ 				{
+ 					"option": "Second half",
+ 					"correct": "False"
+ 				}
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		},
+ 		{
+ 			"questionType": "mcq",
+ 			"questionText": [{
+ 				"text": "Let's investigate this further. Use the table function for the next few questions. <br><br>For what proportion of motor vehicle thefts in 2001 was an arrest made?<br><br> Note: in this question and many others in the course, we are asking for an answer as a proportion. Therefore, your answer should take a value between 0 and 1."
+ 			}],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "0.1041171",
+ 					"correct": "False"
+ 				},
+ 				{
+ 					"option": "0.1041172",
+ 					"correct": "False"
+ 				},
+ 				{
+ 					"option": "0.1041173",
+ 					"correct": "True"
+ 				}
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		},
+ 		{
+ 			"questionType": "mcq",
+ 			"questionText": [{
+ 				"text": "For what proportion of motor vehicle thefts in 2007 was an arrest made?"
+ 			}],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "0.08487394",
+ 					"correct": "False"
+ 				},
+ 				{
+ 					"option": "0.08487395",
+ 					"correct": "True"
+ 				},
+ 				{
+ 					"option": "0.08487396",
+ 					"correct": "False"
+ 				}
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		},
+ 		{
+ 			"questionType": "mcq",
+ 			"questionText": [{
+ 				"text": "For what proportion of motor vehicle thefts in 2012 was an arrest made?"
+ 			}],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "0.03902924",
+ 					"correct": "True"
+ 				},
+ 				{
+ 					"option": "0.03902925",
+ 					"correct": "False"
+ 				},
+ 				{
+ 					"option": "0.03902926",
+ 					"correct": "False"
+ 				}
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		},
+ 		{
+ 			"questionType": "checkbox",
+ 			"questionText": [{
+ 				"text": "Analyzing this data could be useful to the Chicago Police Department when deciding where to allocate resources. If they want to increase the number of arrests that are made for motor vehicle thefts, where should they focus their efforts? <br><br>We want to find the top five locations where motor vehicle thefts occur. If you create a table of the LocationDescription variable, it is unfortunately very hard to read since there are 78 different locations in the data set. By using the sort function, we can view this same table, but sorted by the number of observations in each category. In your R console, type: <br><br>sort(table(mvt$LocationDescription)) <br><br>Which locations are the top five locations for motor vehicle thefts, excluding the \"Other \" category? You should select 5 of the following options."
+ 			}],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "Bank",
+ 					"correct": "False"
+ 				},
+ 				{
+ 					"option": "Gas Station",
+ 					"correct": "True"
+ 				},
+ 				{
+ 					"option": "Hotel/Motel",
+ 					"correct": "False"
+ 				},
+ 				{
+ 					"option": "Street",
+ 					"correct": "True"
+ 				},
+ 				{
+ 					"option": "Car Wash",
+ 					"correct": "False"
+ 				},
+ 				{
+ 					"option": "Restaurant",
+ 					"correct": "False"
+ 				},
+ 				{
+ 					"option": "Parking Lot/Garage (Non-Residential)",
+ 					"correct": "True"
+ 				},
+ 				{
+ 					"option": "Alley",
+ 					"correct": "True"
+ 				},
+ 				{
+ 					"option": "Driveway (Residential)",
+ 					"correct": "True"
+ 				},
+ 				{
+ 					"option": "Vacant Lot/Land",
+ 					"correct": "False"
+ 				}
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		},
+ 		{
+		"questionType": "fillintheblank",
+		"questionText": [
+			{
+				"text":"On which day of the week do the most motor vehicle thefts at gas stations happen?"
+			}],
+		"max_marks": 1,
+		"answer": "saturday",
+		"correct_feedback": "Correct",
+		"wrong_feedback": "Incorrect"
+	},
+	{
+		"questionType": "fillintheblank",
+		"questionText": [
+			{
+				"text":"On which day of the week do the fewest motor vehicle thefts in residential driveways happen?"
+			}],
+		"max_marks": 1,
+		"answer": "saturday",
+		"correct_feedback": "Correct",
+		"wrong_feedback": "Incorrect"
+	}
+ 	]
+
+ }]

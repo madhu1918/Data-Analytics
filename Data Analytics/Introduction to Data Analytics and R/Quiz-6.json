@@ -1,0 +1,128 @@
+ [{
+	"title": "Quiz-6",
+	"activityType": "quiz",
+	"quizDescription": [
+		{
+		"text":"Please answer the following questions using the entire data frame WHO (and not one of the subsets we have created in R)."
+	}
+	],
+	"questions": [
+				{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "What is the mean value of the \"Over60\" variable?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "11.15",
+					"correct": "False"
+				},
+
+				{
+					"option": "11.16",
+					"correct": "True"
+				},
+
+				{
+					"option": "11.17",
+					"correct": "False"
+				},
+				{
+					"option": "11.18",
+					"correct": "False"
+				},
+
+				{
+					"option": "Luxembourg",
+					"correct": "True"
+				},
+
+				{
+					"option": "Mali",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Which country has the smallest percentage of the population over 60?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "Japan",
+					"correct": "False"
+				},
+
+				{
+					"option": "United Arab Emirates (UAE)",
+					"correct": "True"
+				},
+
+				{
+					"option": "Sierra Leone",
+					"correct": "False"
+				},
+				{
+					"option": "Japan",
+					"correct": "False"
+				},
+
+				{
+					"option": "Luxembourg",
+					"correct": "True"
+				},
+
+				{
+					"option": "Mali",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Which country has the largest literacy rate?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "Japan",
+					"correct": "False"
+				},
+
+				{
+					"option": "United Arab Emirates (UAE)",
+					"correct": "True"
+				},
+
+				{
+					"option": "Sierra Leone",
+					"correct": "False"
+				},
+				{
+					"option": "Japan",
+					"correct": "False"
+				},
+
+				{
+					"option": "Luxembourg",
+					"correct": "True"
+				},
+
+				{
+					"option": "Mali",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+}]

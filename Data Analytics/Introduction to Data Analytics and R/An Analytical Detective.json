@@ -1,0 +1,18 @@
+[{
+	"title": "An Analytical Detective",
+	"activityType": "reading",
+	"quizDescription": [{
+			"text": "Crime is an international concern, but it is documented and handled in very different ways in different countries. In the United States, violent crimes and property crimes are recorded by the Federal Bureau of Investigation (FBI).  Additionally, each city documents crime, and some cities release data regarding crime rates. The city of Chicago, Illinois releases crime data from 2001 onward <a href=\"https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2\">online</a>. Chicago is the third most populous city in the United States, with a population of over 2.7 million people. The city of Chicago is shown in the map below, with the state of Illinois highlighted in red"
+		},
+		{
+			"image": {
+				"imageName": "",
+				"imageSRC": "image-1.png"
+			}
+		},
+		{
+			"text": "There are two main types of crimes: violent crimes, and property crimes. In this problem, we'll focus on one specific type of property crime, called \"motor vehicle theft\" (sometimes referred to as grand theft auto). This is the act of stealing, or attempting to steal, a car. In this problem, we'll use some basic data analysis in R to understand the motor vehicle thefts in Chicago.<br><br>Please download the file<a href=\"https://prod-edxapp.edx-cdn.org/assets/courseware/v1/96f9b8f751467da3a4b8a5be33e32905/asset-v1:MITx+15.071x+3T2018+type@asset+block/mvtWeek1.csv\">mvtWeek1.csv</a> for this problem (do not open this file in any spreadsheet software before completing this problem because it might change the format of the Date field). Here is a list of descriptions of the variables:<ul><li><b>ID:</b> a unique identifier for each observation</li><li><b>Date:</b> the date the crime occurred</li><li><b>LocationDescription:</b> the location where the crime occurred</li><li><b>Arrest:</b> whether or not an arrest was made for the crime (TRUE if an arrest was made, and FALSE if an arrest was not made)</li><li><b>Domestic:</b> whether or not the crime was a domestic crime, meaning that it was committed against a family member (TRUE if it was domestic, and FALSE if it was not domestic)</li><li><b>Beat: the area, or \"beat\" in which the crime occurred. This is the smallest regional division defined by the Chicago police department.</li><li><b>District:</b> the police district in which the crime occured. Each district is composed of many beats, and are defined by the Chicago Police Department.</li><li><b>CommunityArea:</b> the community area in which the crime occurred. Since the 1920s, Chicago has been divided into what are called \"community areas\", of which there are now 77. The community areas were devised in an attempt to create socially homogeneous regions.</li><li><b>Year:</b> the year in which the crime occurred.</li><li><b>Latitude:</b> the latitude of the location at which the crime occurred.</li><li><b>Longitude:</b> the longitude of the location at which the crime occurred.</li></ul>"
+		}
+
+	]
+}]

@@ -1,0 +1,54 @@
+ [{
+	"title": "Quiz-1",
+	"activityType": "quiz",
+	"quizDescription": [
+		{
+				"text": "The plots below show the relationship between two of the independent variables considered by Ashenfelter and the price of wine."
+		},
+		{
+              "image": {
+                "imageName": "",
+                "imageSRC": "image-1.png"
+              }
+          },
+          {
+              "image": {
+                "imageName": "",
+                "imageSRC": "image-2.png"
+              }
+            }
+	],
+	"questions": [
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "What is the correct relationship between harvest rain, average growing season temperature, and wine prices?"
+			}
+			
+		],
+			"max_marks": 1,
+			"options": [{
+					"option": "More harvest rain is associated with a higher price, and higher temperatures is associated with a higher price",
+					"correct": "False"
+				},
+
+				{
+					"option": "More harvest rain is associated with a higher price, and higher temperatures is associated with a lower price",
+					"correct": "False"
+				},
+				{
+					"option": "More harvest rain is associated with a lower price, and higher temperatures is associated with a higher price correct",
+					"correct": "True"
+				},
+
+				{
+					"option": "More harvest rain is associated with a lower price, and higher temperatures is associated with a lower price",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+}]

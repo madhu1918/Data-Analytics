@@ -1,0 +1,139 @@
+ [{
+ 	"title": "Quiz-1",
+ 	"activityType": "quiz",
+ 	"quizDescription": [{
+ 			"text": "The following figure shows three data points and the best fit line y = 3x + 2. The x-coordinate, or \"x\", is our independent variable and the y-coordinate, or \"y\", is our dependent variable."
+ 		},
+ 		{
+ 			"image": {
+ 				"imageName": "",
+ 				"imageSRC": "image-3.png"
+ 			}
+ 		}
+ 	],
+ 	"questions": [{
+ 			"questionType": "mcq",
+ 			"questionText": [{
+ 					"text": "What is the baseline prediction?"
+ 				}
+
+ 			],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "2",
+ 					"correct": "False"
+ 				},
+
+ 				{
+ 					"option": "3",
+ 					"correct": "False"
+ 				},
+ 				{
+ 					"option": "4",
+ 					"correct": "True"
+ 				},
+
+ 				{
+ 					"option": "5",
+ 					"correct": "False"
+ 				}
+
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		},
+ 		{
+ 			"questionType": "mcq",
+ 			"questionText": [{
+ 					"text": "What is the Sum of Squared Errors (SSE) ?"
+ 				}
+
+ 			],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "18",
+ 					"correct": "True"
+ 				},
+
+ 				{
+ 					"option": "24",
+ 					"correct": "False"
+ 				},
+ 				{
+ 					"option": "0.25",
+ 					"correct": "False"
+ 				},
+
+ 				{
+ 					"option": "2.44",
+ 					"correct": "False"
+ 				}
+
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		},
+ 		{
+ 			"questionType": "mcq",
+ 			"questionText": [{
+ 					"text": "What is the Total Sum of Squares (SST)"
+ 				}
+
+ 			],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "18",
+ 					"correct": "False"
+ 				},
+
+ 				{
+ 					"option": "24",
+ 					"correct": "True"
+ 				},
+ 				{
+ 					"option": "0.25",
+ 					"correct": "False"
+ 				},
+
+ 				{
+ 					"option": "2.44",
+ 					"correct": "False"
+ 				}
+
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		},
+ 		{
+ 			"questionType": "mcq",
+ 			"questionText": [{
+ 					"text": "What is the R² of the model?"
+ 				}
+
+ 			],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "18",
+ 					"correct": "False"
+ 				},
+
+ 				{
+ 					"option": "24",
+ 					"correct": "False"
+ 				},
+ 				{
+ 					"option": "0.25",
+ 					"correct": "True"
+ 				},
+
+ 				{
+ 					"option": "2.44",
+ 					"correct": "False"
+ 				}
+
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		}
+ 	]
+ }]

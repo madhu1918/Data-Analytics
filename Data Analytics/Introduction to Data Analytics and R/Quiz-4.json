@@ -1,0 +1,85 @@
+ [{
+	"title": "Quiz-4",
+	"activityType": "quiz",
+	"quizDescription": [
+		{
+		"text":"<b>Choose the correct answer below</b>"
+	}
+	],
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "If you want to add new observations to a data frame, what should you use?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "The data.frame function.",
+					"correct": "False"
+				},
+
+				{
+					"option": "The rbind function.",
+					"correct": "True"
+				},
+
+				{
+					"option": "The dollar sign notation.",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "If you want to combine two vectors into a data frame, what should you use?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "The data.frame function.",
+					"correct": "True"
+				},
+
+				{
+					"option": "The rbind function.",
+					"correct": "False"
+				},
+
+				{
+					"option": "The dollar sign notation.",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "If you want to add a variable to your data frame, what should you use?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "The data.frame function.",
+					"correct": "False"
+				},
+
+				{
+					"option": "The rbind function.",
+					"correct": "False"
+				},
+
+				{
+					"option": "The dollar sign notation.",
+					"correct": "True"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+}]

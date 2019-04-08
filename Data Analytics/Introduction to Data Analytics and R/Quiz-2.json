@@ -1,0 +1,40 @@
+ [{
+	"title": "Quiz-2",
+	"activityType": "quiz",
+	"quizDescription": [
+		{
+		"text":"<b>Choose the correct answer below</b>"
+	}
+	],
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "At which university was the first version of R developed?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "MIT",
+					"correct": "False"
+				},
+
+				{
+					"option": "University of Auckland correct",
+					"correct": "True"
+				},
+
+				{
+					"option": "Stanford University",
+					"correct": "False"
+				},
+
+				{
+					"option": "Oxford University",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+}]

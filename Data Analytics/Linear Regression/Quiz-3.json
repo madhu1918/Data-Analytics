@@ -1,0 +1,33 @@
+ [{
+ 	"title": "Quiz-3",
+ 	"activityType": "quiz",
+ 	"quizDescription": [{
+ 		"text": "Choose the answer below"
+ 	}],
+ 	"questions": [{
+ 		"questionType": "mcq",
+ 		"questionText": [{
+ 				"text": "Suppose we add another variable, Average Winter Temperature, to our model to predict wine price. Is it possible for the model's R² value to go down from 0.83 to 0.80?"
+ 			}
+
+ 		],
+ 		"max_marks": 1,
+ 		"options": [{
+ 				"option": "No, the model's R² value can only decrease to 0.81 by adding new variables. incorrect",
+ 				"correct": "False"
+ 			},
+
+ 			{
+ 				"option": "No, the model's R² value can not decrease at all by adding new variables.",
+ 				"correct": "True"
+ 			},
+ 			{
+ 				"option": "Yes, the R² value could decrease to 0.80.",
+ 				"correct": "False"
+ 			}
+
+ 		],
+ 		"correct_feedback": "Correct",
+ 		"wrong_feedback": "Incorrect"
+ 	}]
+ }]

@@ -1,0 +1,161 @@
+ [{
+	"title": "Quiz-8",
+	"activityType": "quiz",
+	"quizDescription": [
+		{
+			"text": " Loading the Data<br><br>Read the dataset <a href=\"https://prod-edxapp.edx-cdn.org/assets/courseware/v1/96f9b8f751467da3a4b8a5be33e32905/asset-v1:MITx+15.071x+3T2018+type@asset+block/mvtWeek1.csv\">mvtWeek1.csv</a>. into R, using the read.csv function, and call the data frame \"mvt\". Remember to navigate to the directory on your computer containing the file mvtWeek1.csv first. It may take a few minutes to read in the data, since it is pretty large. Then, use the str and summary functions to answer the following questions"
+		}
+	],
+	"questions": [
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "How many variables are in this dataset?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "10",
+					"correct": "False"
+				},
+
+				{
+					"option": "11",
+					"correct": "True"
+				},
+
+				{
+					"option": "12",
+					"correct": "False"
+				},
+
+				{
+					"option": "13",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Using the \"max\" function, what is the maximum value of the variable \"ID\"?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "9181153",
+					"correct": "False"
+				},
+
+				{
+					"option": "9181152",
+					"correct": "False"
+				},
+
+				{
+					"option": "9181151",
+					"correct": "True"
+				},
+
+				{
+					"option": "9181154",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "What is the minimum value of the variable \"Beat\"?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "111",
+					"correct": "True"
+				},
+
+				{
+					"option": "112",
+					"correct": "False"
+				},
+
+				{
+					"option": "113",
+					"correct": "False"
+				},
+
+				{
+					"option": "114",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "How many observations have value TRUE in the Arrest variable (this is the number of crimes for which an arrest was made)?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "15,535",
+					"correct": "False"
+				},
+
+				{
+					"option": "15,536",
+					"correct": "True"
+				},
+
+				{
+					"option": "15,537",
+					"correct": "False"
+				},
+
+				{
+					"option": "15,538",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "How many observations have a LocationDescription value of ALLEY?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "2,305",
+					"correct": "False"
+				},
+
+				{
+					"option": "2,308",
+					"correct": "True"
+				},
+
+				{
+					"option": "2,306",
+					"correct": "False"
+				},
+
+				{
+					"option": "2,307",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+}]

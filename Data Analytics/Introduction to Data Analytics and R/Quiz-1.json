@@ -1,0 +1,31 @@
+[{
+	"title": "Quiz-1",
+	"activityType": "quiz",
+	"quizDescription": [
+		{
+		"text":"<b>After completion of the previous activity, answer the following questions:</b>"
+		}
+	],
+	"questions": [{
+		"questionType": "fillintheblank",
+		"questionText": [
+			{
+				"text":"When you start R, you should see a window titled \"R Console\". In this window, there is some text, and then at the bottom there should be a > symbol (greater than symbol), followed by a blinking cursor. At the cursor, type:<br>sd(c(5,8,12))<br>and then hit enter. You should see [1] followed by a number. What is this number?"
+			}],
+		"max_marks": 1,
+		"answer": "3.511885",
+		"correct_feedback": "Correct",
+		"wrong_feedback": "Incorrect"
+	}, {
+		"questionType": "fillintheblank",
+		"questionText": [
+			{
+				"text":"Now type:<br>which.min(c(4,1,6))<br>at the cursor, and hit enter. You should again see [1], followed by a number. What is this number?"
+			}],
+		"max_marks": 1,
+		"answer": "2",
+		"correct_feedback": "Correct",
+		"wrong_feedback": "Incorrect"
+	}
+]
+}]

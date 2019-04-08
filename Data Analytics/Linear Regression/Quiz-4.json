@@ -1,0 +1,98 @@
+ [{
+ 	"title": "Quiz-4",
+ 	"activityType": "quiz",
+ 	"quizDescription": [{
+ 		"text": "Quiz : In R, use the dataset wine.csv to create a linear regression model to predict Price using HarvestRain and WinterRain as independent variables. Using the summary output of this model, answer the following questions:"
+ 	}],
+ 	"questions": [{
+ 			"questionType": "mcq",
+ 			"questionText": [{
+ 					"text": "What is the \"Multiple R-squared\" value of your model?"
+ 				}
+
+ 			],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "0.3173",
+ 					"correct": "False"
+ 				},
+
+ 				{
+ 					"option": "0.3174",
+ 					"correct": "False"
+ 				},
+ 				{
+ 					"option": "0.3177",
+ 					"correct": "True"
+ 				},
+ 				{
+ 					"option": "0.3172",
+ 					"correct": "False"
+ 				}
+
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		},
+ 		{
+ 			"questionType": "mcq",
+ 			"questionText": [{
+ 					"text": "What is the coefficient for HarvestRain?"
+ 				}
+
+ 			],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "-4.971e-03",
+ 					"correct": "True"
+ 				},
+
+ 				{
+ 					"option": "-4.971e-04",
+ 					"correct": "False"
+ 				},
+ 				{
+ 					"option": "-4.971e-05 ",
+ 					"correct": "False"
+ 				},
+ 				{
+ 					"option": "-4.971e-06",
+ 					"correct": "False"
+ 				}
+
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		},
+ 		{
+ 			"questionType": "mcq",
+ 			"questionText": [{
+ 					"text": "What is the intercept coefficient?"
+ 				}
+
+ 			],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "7.865e+20",
+ 					"correct": "False"
+ 				},
+
+ 				{
+ 					"option": "7.865e+30",
+ 					"correct": "False"
+ 				},
+ 				{
+ 					"option": "7.865e+40",
+ 					"correct": "False"
+ 				},
+ 				{
+ 					"option": "7.865e+00",
+ 					"correct": "True"
+ 				}
+
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		}
+ 	]
+ }]
