@@ -1,0 +1,595 @@
+[{
+	"title": "Assignment-1",
+	"activityType": "quiz",
+	"quizDescription": [{
+		"text": "The Programme for International Student Assessment (PISA) is a test given every three years to 15-year-old students from around the world to evaluate their performance in mathematics, reading, and science. This test provides a quantitative way to compare the performance of students from different parts of the world. In this homework assignment, we will predict the reading scores of students from the United States of America on the 2009 PISA exam.<br><br>The datasets <a href=\"https://prod-edxapp.edx-cdn.org/assets/courseware/v1/d2c0eaf1a7b1aeee047a2be54e0c6173/asset-v1:MITx+15.071x+3T2018+type@asset+block/pisa2009train.csv\">pisa2009train.csv</a> and <a href=\"https://prod-edxapp.edx-cdn.org/assets/courseware/v1/b1cf56f09e79ee9b71b38143560252be/asset-v1:MITx+15.071x+3T2018+type@asset+block/pisa2009test.csv\">pisa2009test.csv</a>  contain information about the demographics and schools for American students taking the exam, derived from <a href=\"http://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2011038\">2009 PISA Public-Use Data Files </a> distributed by the United States National Center for Education Statistics (NCES). While the datasets are not supposed to contain identifying information about students taking the test, by using the data you are bound by the <a href=\"https://prod-edxapp.edx-cdn.org/assets/courseware/v1/8522b75c7463c923fb96ae274fdf8213/asset-v1:MITx+15.071x+3T2018+type@asset+block/NCES_Data_Use_Agreement.txt\">NCES_Data_Use_Agreement.txt</a> which prohibits any attempt to determine the identity of any student in the datasets.<br><br>Each row in the datasets pisa2009train.csv and pisa2009test.csv represents one student taking the exam. The datasets have the following variables:<br><b>grade:</b> The grade in school of the student (most 15-year-olds in America are in 10th grade)<br><b>male:</b> Whether the student is male (1/0)<br><b>raceeth:</b> The race/ethnicity composite of the student<br><b>preschool:</b> Whether the student attended preschool (1/0)<br><b>expectBachelors:</b> Whether the student expects to obtain a bachelor's degree (1/0)<br><b>motherHS: Whether the student's mother completed high school (1/0)<br><b>motherBachelors:</b> Whether the student's mother obtained a bachelor's degree (1/0)<br><b>motherWork:</b> Whether the student's mother has part-time or full-time work (1/0)<br><b>fatherHS:</b> Whether the student's father completed high school (1/0)<br><b>fatherBachelors:</b> Whether the student's father obtained a bachelor's degree (1/0)<br><b>fatherWork:</b> Whether the student's father has part-time or full-time work (1/0)<br><b>selfBornUS:</b> Whether the student was born in the United States of America (1/0)<br><b>motherBornUS:</b> Whether the student's mother was born in the United States of America (1/0)<br><b>fatherBornUS:</b> Whether the student's father was born in the United States of America (1/0)<br><b>englishAtHome:</b> Whether the student speaks English at home (1/0)<br><b>computerForSchoolwork:</b> Whether the student has access to a computer for schoolwork (1/0)<br><b>read30MinsADay:</b> Whether the student reads for pleasure for 30 minutes/day (1/0)<br><b>minutesPerWeekEnglish:</b> The number of minutes per week the student spend in English class<br><b>studentsInEnglish:</b> The number of students in this student's English class at school<br><b>schoolHasLibrary:</b> Whether this student's school has a library (1/0)<br><b>publicSchool:</b> Whether this student attends a public school (1/0)<br><b>urban:</b> Whether this student's school is in an urban area (1/0)<br><b>schoolSize:</b> The number of students in this student's school<br><b>readingScore:</b> The student's reading score, on a 1000-point scale"
+	}],
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Problem : Dataset size<br>Load the training and testing sets using the read.csv() function, and save them as variables with the names pisaTrain and pisaTest.<br>How many students are there in the training set?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "3662",
+					"correct": "False"
+				},
+				{
+					"option": "3663",
+					"correct": "True"
+				},
+				{
+					"option": "3664",
+					"correct": "False"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Problem 1.2 - Summarizing the dataset<br>Using tapply() on pisaTrain, what is the average reading test score of males?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "483.6325",
+					"correct": "False"
+				},
+				{
+					"option": "483.7325",
+					"correct": "False"
+				},
+				{
+					"option": "483.5325",
+					"correct": "True"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "checkbox",
+			"questionText": [{
+				"text": "Problem 1.3 - Locating missing values<br>Which variables are missing data in at least one observation in the training set? Select all that apply."
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "grade",
+					"correct": "False"
+				},
+				{
+					"option": "male",
+					"correct": "False"
+				},
+				{
+					"option": "raceeth",
+					"correct": "True"
+				},
+				{
+					"option": "preschool",
+					"correct": "True"
+				},
+				{
+					"option": "expectBachelors",
+					"correct": "True"
+				},
+				{
+					"option": "motherHS",
+					"correct": "True"
+				},
+				{
+					"option": "motherBachelors",
+					"correct": "True"
+				},
+				{
+					"option": "motherWork",
+					"correct": "True"
+				},
+				{
+					"option": "fatherHS",
+					"correct": "True"
+				},
+				{
+					"option": "fatherBachelors",
+					"correct": "True"
+				},
+				{
+					"option": "fatherWork",
+					"correct": "True"
+				},
+				{
+					"option": "selfBornUS",
+					"correct": "True"
+				},
+				{
+					"option": "motherBornUS",
+					"correct": "True"
+				},
+				{
+					"option": "fatherBornUS",
+					"correct": "True"
+				},
+				{
+					"option": "englishAtHome",
+					"correct": "True"
+				},
+				{
+					"option": "computerForSchoolwork",
+					"correct": "True"
+				},
+				{
+					"option": "read30MinsADay",
+					"correct": "True"
+				},
+				{
+					"option": "minutesPerWeekEnglish",
+					"correct": "True"
+				},
+				{
+					"option": "studentsInEnglish",
+					"correct": "True"
+				},
+				{
+					"option": "schoolHasLibrary",
+					"correct": "True"
+				},
+				{
+					"option": "publicSchool",
+					"correct": "False"
+				},
+				{
+					"option": "urban",
+					"correct": "False"
+				},
+				{
+					"option": "schoolSize correct",
+					"correct": "True"
+				},
+				{
+					"option": "readingScore",
+					"correct": "False"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Problem  - Removing missing values<br>Linear regression discards observations with missing data, so we will remove all such observations from the training and testing sets. Later in the course, we will learn about imputation, which deals with missing data by filling in missing values with plausible information.<br>Type the following commands into your R console to remove observations with any missing value from pisaTrain and pisaTest:<br>pisaTrain = na.omit(pisaTrain)<br>pisaTest = na.omit(pisaTest)<br>How many observations are now in the training set?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "2001",
+					"correct": "False"
+				},
+				{
+					"option": "2414",
+					"correct": "True"
+				},
+				{
+					"option": "3414",
+					"correct": "False"
+				},
+				{
+					"option": "4444",
+					"correct": "False"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Problem - Factor variables<br>Factor variables are variables that take on a discrete set of values, like the \"Region \" variable in the WHO dataset from the second lecture of Unit 1. This is an unordered factor because there isn't any natural ordering between the levels. An ordered factor has a natural ordering between the levels (an example would be the classifications \"large\", \"medium\" and \"small\").<br>Which of the following variables is an unordered factor with at least 3 levels? (Select all that apply.)"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "grade",
+					"correct": "False"
+				},
+				{
+					"option": "male",
+					"correct": "False"
+				},
+				{
+					"option": "raceeth",
+					"correct": "True"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Which of the following variables is an ordered factor with at least 3 levels? (Select all that apply.)"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "grade",
+					"correct": "True"
+				},
+				{
+					"option": "male",
+					"correct": "False"
+				},
+				{
+					"option": "Raceeth",
+					"correct": "False"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "checkbox",
+			"questionText": [{
+				"text": "Problem  - Unordered factors in regression models<br>To include unordered factors in a linear regression model, we define one level as the \"reference level \" and add a binary variable for each of the remaining levels. In this way, a factor with n levels is replaced by n-1 binary variables. The reference level is typically selected to be the most frequently occurring level in the dataset.<br><br>As an example, consider the unordered factor variable \"color \", with levels \"red \", \"green \", and \"blue \". If \"green \" were the reference level, then we would add binary variables \"colorred \" and \"colorblue \" to a linear regression problem. All red examples would have colorred=1 and colorblue=0. All blue examples would have colorred=0 and colorblue=1. All green examples would have colorred=0 and colorblue=0.<br><br>Now, consider the variable \"raceeth \" in our problem, which has levels \"American Indian / Alaska Native \", \"Asian \", \"Black \", \"Hispanic \", \"More than one race \", \"Native Hawaiian / Other Pacific Islander \", and \"White \". Because it is the most common in our population, we will select White as the reference level.<br><br>Which binary variables will be included in the regression model? (Select all that apply.)"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "raceethAmerican Indian/Alaska Native",
+					"correct": "True"
+				},
+				{
+					"option": "raceethAsian",
+					"correct": "True"
+				},
+				{
+					"option": "raceethBlack",
+					"correct": "True"
+				},
+				{
+					"option": "raceethHispanic",
+					"correct": "True"
+				},
+				{
+					"option": "raceethMore than one race",
+					"correct": "True"
+				},
+				{
+					"option": "raceethNative Hawaiian/Other Pacific Islander",
+					"correct": "True"
+				},
+				{
+					"option": "raceethWhite",
+					"correct": "False"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "checkbox",
+			"questionText": [{
+				"text": "Problem- Example unordered factors<br><br>Consider again adding our unordered factor race to the regression model with reference level \"White\".<br>For a student who is Asian, which binary variables would be set to 0? All remaining variables will be set to 1. (Select all that apply.)"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "raceethAmerican Indian/Alaska Native",
+					"correct": "True"
+				},
+				{
+					"option": "raceethAsian",
+					"correct": "False"
+				},
+				{
+					"option": "raceethBlack",
+					"correct": "True"
+				},
+				{
+					"option": "raceethHispanic",
+					"correct": "True"
+				},
+				{
+					"option": "raceethMore than one race",
+					"correct": "True"
+				},
+				{
+					"option": "raceethNative Hawaiian/Other Pacific Islander",
+					"correct": "True"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "checkbox",
+			"questionText": [{
+				"text": "For a student who is white, which binary variables would be set to 0? All remaining variables will be set to 1. (Select all that apply.)"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "raceethAmerican Indian/Alaska Native",
+					"correct": "True"
+				},
+				{
+					"option": "raceethAsian",
+					"correct": "True"
+				},
+				{
+					"option": "raceethBlack",
+					"correct": "True"
+				},
+				{
+					"option": "raceethHispanic",
+					"correct": "True"
+				},
+				{
+					"option": "raceethMore than one race",
+					"correct": "True"
+				},
+				{
+					"option": "raceethNative Hawaiian/Other Pacific Islander",
+					"correct": "True"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Problem - Building a model<br><br>Because the race variable takes on text values, it was loaded as a factor variable when we read in the dataset with read.csv() -- you can see this when you run str(pisaTrain) or str(pisaTest). However, by default R selects the first level alphabetically (\"American Indian / Alaska Native \") as the reference level of our factor instead of the most common level (\"White \"). Set the reference level of the factor by typing the following two lines in your R console:<br><br>pisaTrain$raceeth = relevel(pisaTrain$raceeth, \"White \")<br>pisaTest$raceeth = relevel(pisaTest$raceeth, \"White \")<br><br>Now, build a linear regression model (call it lmScore) using the training set to predict readingScore using all the remaining variables.<br><br>It would be time-consuming to type all the variables, but R provides the shorthand notation \"readingScore~.\" to mean \"predict readingScore using all the other variables in the data frame.\" The period is used to replace listing out all of the independent variables. As an example, if your dependent variable is called \"Y \", your independent variables are called \"X1 \", \"X2 \", and \"X3 \", and your training data set is called \"Train \", instead of the regular notation:<br><br>LinReg = lm(Y ~ X1 + X2 + X3, data = Train)<br><br>You would use the following command to build your model:<br><br>LinReg = lm(Y ~ ., data = Train)<br><br>What is the Multiple R-squared value of lmScore on the training set?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "0.3251",
+					"correct": "True"
+				},
+				{
+					"option": "0.3253",
+					"correct": "False"
+				},
+				{
+					"option": "0.3252",
+					"correct": "False"
+				},
+				{
+					"option": "0.3255",
+					"correct": "False"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Problem - Computing the root-mean squared error of the model<br><br>What is the training-set root-mean squared error (RMSE) of lmScore?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "73.36553",
+					"correct": "False"
+				},
+				{
+					"option": "73.36552",
+					"correct": "False"
+				},
+				{
+					"option": "73.36559",
+					"correct": "False"
+				},
+				{
+					"option": "73.36555",
+					"correct": "True"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Problem - Comparing predictions for similar students<br>Consider two students A and B. They have all variable values the same, except that student A is in grade 11 and student B is in grade 9. What is the predicted reading score of student A minus the predicted reading score of student B?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "-59.09",
+					"correct": "False"
+				},
+				{
+					"option": "-29.54",
+					"correct": "False"
+				},
+				{
+					"option": "0",
+					"correct": "False"
+				},
+				{
+					"option": "29.54",
+					"correct": "False"
+				},
+				{
+					"option": "59.09",
+					"correct": "True"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Problem - Interpreting model coefficients<br>What is the meaning of the coefficient associated with variable raceethAsian?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "Predicted average reading score of an Asian student",
+					"correct": "False"
+				},
+				{
+					"option": "Difference between the average reading score of an Asian student and the average reading score of a white student",
+					"correct": "False"
+				},
+				{
+					"option": "Difference between the average reading score of an Asian student and the average reading score of all the students in the dataset",
+					"correct": "False"
+				},
+				{
+					"option": "Predicted difference in the reading score between an Asian student and a white student who is otherwise identical",
+					"correct": "True"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Problem - Predicting on unseen data<br><br>Using the \"predict \" function and supplying the \"newdata \" argument, use the lmScore model to predict the reading scores of students in pisaTest. Call this vector of predictions \"redTest \". Do not change the variables in the model (for example, do not remove variables that we found were not significant in the previous part of this problem). Use the summary function to describe the test set predictions.<br><br>What is the range between the maximum and minimum predicted reading score on the test set?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "284.5",
+					"correct": "True"
+				},
+				{
+					"option": "284.4",
+					"correct": "False"
+				},
+				{
+					"option": "284.3",
+					"correct": "False"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Problem - Test set SSE and RMSE<br><br>What is the sum of squared errors (SSE) of lmScore on the testing set?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "5762085",
+					"correct": "False"
+				},
+				{
+					"option": "5762083",
+					"correct": "False"
+				},
+				{
+					"option": "5762082",
+					"correct": "True"
+				},
+				{
+					"option": "5762089",
+					"correct": "False"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "What is the root-mean squared error (RMSE) of lmScore on the testing set?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "76.29079",
+					"correct": "True"
+				},
+				{
+					"option": "76.290710",
+					"correct": "False"
+				},
+				{
+					"option": "76.29073",
+					"correct": "False"
+				},
+				{
+					"option": "76.29072",
+					"correct": "False"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Problem  - Baseline prediction and test-set SSE<br>What is the predicted test score used in the baseline model? Remember to compute this value using the training set and not the test set."
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "117.9629",
+					"correct": "False"
+				},
+				{
+					"option": "317.9629",
+					"correct": "False"
+				},
+				{
+					"option": "717.9629",
+					"correct": "False"
+				},
+				{
+					"option": "517.9629",
+					"correct": "True"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "What is the sum of squared errors of the baseline model on the testing set? HINT: We call the sum of squared errors for the baseline model the total sum of squares (SST)."
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "7802354",
+					"correct": "True"
+				},
+				{
+					"option": "7802355",
+					"correct": "False"
+				},
+				{
+					"option": "7802356",
+					"correct": "False"
+				},
+				{
+					"option": "7802357",
+					"correct": "False"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Problem Test-set R-squared<br>What is the test-set R-squared value of lmScore?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "0.2613944",
+					"correct": "False"
+				},
+				{
+					"option": "0.2614948",
+					"correct": "False"
+				},
+				{
+					"option": "0.2614944",
+					"correct": "True"
+				},
+				{
+					"option": "0.2514944",
+					"correct": "False"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+
+}]

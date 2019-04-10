@@ -1,0 +1,16 @@
+[
+	{
+		"title":"Video on The Data",
+		"activityType":"youtubevideo",
+		"videoURL":"WfaKNYR2vAA"
+	},
+	{
+	"title":"Video on The Data",
+	"activityType": "reading",
+	"quizDescription": [
+		{
+			"text": "In this recitation, we'll apply some of the ideas from Moneyball to data from the National Basketball Association (NBA). Please download the datasets <a href=\"https://prod-edxapp.edx-cdn.org/assets/courseware/v1/70b87da0aabdde7b8b4ce73380821e84/asset-v1:MITx+15.071x+3T2018+type@asset+block/NBA_train.csv\">NBA_train.csv</a> and <a href=\"https://prod-edxapp.edx-cdn.org/assets/courseware/v1/59c34f97ad892fb75b757f15812da228/asset-v1:MITx+15.071x+3T2018+type@asset+block/NBA_test.csv\">NBA_test.csv</a>. and save them to a location on your computer that you will remember. This data comes from <a href=\"http://www.basketball-reference.com/\">Basketball-Reference.com</a>"
+		}
+	]
+	}
+]

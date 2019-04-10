@@ -81,6 +81,23 @@
             "learningObjectives": [],
             "overview": [],
             "title": "Linear Regression"
+        },
+                {
+            "activities": [
+                "Video on Welcome to Recitation on Linear Regresion",
+                "Video on The Data",
+                "Video on Playoffs and Wins",
+                "Video on Points Scored",
+                "Video on Making Predictions",
+                "Assignment-1",
+                "Assignment-2",
+                "Assignment-3",
+                "Assignment-4",
+                "Assignment-5"
+            ],
+            "learningObjectives": [],
+            "overview": [],
+            "title": "Linear Regression (Recitations and Assignments)"
         }
     ]
 }

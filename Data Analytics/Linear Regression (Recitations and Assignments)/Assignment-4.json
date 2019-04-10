@@ -1,0 +1,13 @@
+[{
+	"title":"Assignment-4",
+	"activityType":"assignment",
+	"questions":[
+		{
+		"questionType":"filesubmission",
+		"max_marks":40,
+		"graded": true,
+		"questionText":"Submit the R files of the assignments you have solved this module."
+		}
+
+	]
+}]
