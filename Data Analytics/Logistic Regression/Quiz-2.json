@@ -1,0 +1,106 @@
+[{
+	"title": "Quiz-2",
+	"activityType": "quiz",
+	"quizDescription": [{
+		"text": "Choose the correct answer"
+	}],
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Suppose the coefficients of a logistic regression model with two independent variables are as follows:"
+			},
+			{
+              "image" : {
+                "imageName" : "",
+                  "imageSRC" : "image-1.png"
+              }
+            },
+            {
+				"text": "And we have an observation with the following values for the independent variables:"
+			},
+			{
+              "image" : {
+                "imageName" : "",
+                  "imageSRC" : "image-2.png"
+              }
+            },
+            {
+				"text": "What is the value of the Logit for this observation? Recall that the Logit is log(Odds)."
+			}			
+		],
+			"max_marks": 1,
+			"options": [{
+					"option": "-1",
+					"correct": "True"
+				},
+				{
+					"option": "-2",
+					"correct": "False"
+				},
+				{
+					"option": "1",
+					"correct": "False"
+				},
+				{
+					"option": "2",
+					"correct": "False"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "What is the value of the Odds for this observation? Note that you can compute e^x, for some number x, in your R console by typing exp(x). The function exp() computes the exponential of its argument."
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "0.3678799",
+					"correct": "False"
+				},
+				{
+					"option": "0.3678797",
+					"correct": "False"
+				},
+				{
+					"option": "0.3678794",
+					"correct": "True"
+				},
+				{
+					"option": "-0.3678794",
+					"correct": "False"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "What is the value of P(y = 1) for this observation?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "0.2689415",
+					"correct": "False"
+				},
+				{
+					"option": "0.2689414",
+					"correct": "True"
+				},
+				{
+					"option": "0.2689416",
+					"correct": "False"
+				},
+				{
+					"option": "0.2689412",
+					"correct": "False"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+
+}]

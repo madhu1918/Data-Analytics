@@ -1,0 +1,127 @@
+[{
+	"title": "Assignment-1",
+	"activityType": "quiz",
+	"quizDescription": [{ 
+			"text": "<b>Note: This is an open book exam. Answer all the questions</b>"
+		},
+		{
+			"text": "Section A : 12*0.5 = 6 Marks<br>Download Bike Sharing Data Answer following questions from hour.csv."
+		},
+		{
+			"text": "Bike Sharing Data"
+		},
+		{
+				"attachment": ["Bike-Sharing-Datase.zip"]
+		}
+	],
+
+	"questions": [{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"How many rows of data (observations) are in this dataset?"
+				}
+			],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"How many variables are in this dataset?"
+				}
+			],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"Find the difference between maximum and minimum temperature in this dataset ?( consider 2 numbers after decimal point )"
+				}
+			],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"Count the number of working days(having value=1 in that column) in this dataset?"
+				}
+		],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"How many records are there for springer season?"
+				}
+			],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"What is the month and year of the median date in our dataset? (Write in the format mm,yyyy )"
+				}
+			],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"Count of total rental bikes from 2012-5-18 to 2012-5-21(both dates are inclusive) in this dataset?"
+				}
+			],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"In which month and year the average rental bikes is low? (Write in the format mm,yyyy )"
+				}
+			],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"In 2011 which weekday the average of  rental bikes is high?"
+				}
+		],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"In general, does it look like rental bikes increases or decreases from 2011 – 2012? (Write increase, decreases,equal )"
+				}
+			],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"For what proportion of hours in 2012 was more than the average of the count of rental bikes. ( consider 4 numbers after decimal point )"
+				}
+		],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"Find in each interval of ([0-8), [8-18),[18-0)) hours the average of count of rental bikes in year 2012.( consider 3 numbers after decimal point  with comma separated(x,y,z))"
+				}
+			],
+			"max_marks": 0.5
+		}
+	]
+}]

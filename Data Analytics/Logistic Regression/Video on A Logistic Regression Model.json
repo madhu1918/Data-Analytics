@@ -1,0 +1,16 @@
+[
+	{
+		"title":"Video on A Logistic Regression Model",
+		"activityType":"youtubevideo",
+		"videoURL":"twpnirrxaBI"
+	},
+	{
+	"title":"A Logistic Regression Model",
+	"activityType": "reading",
+	"quizDescription": [
+		{
+			"text": "In this video, we'll use the dataset <a href=\"https://prod-edxapp.edx-cdn.org/assets/courseware/v1/7022cf016eefb6d3747447589423dab0/asset-v1:MITx+15.071x+3T2018+type@asset+block/framingham.csv\">framingham.csv</a> to build a logistic regression model. Please download this dataset to follow along. This data comes from the <a href=\"https://biolincc.nhlbi.nih.gov/media/teachingstudies/framdoc.pdf\">BioLINCC website</a>"
+		}
+	]
+	}
+]

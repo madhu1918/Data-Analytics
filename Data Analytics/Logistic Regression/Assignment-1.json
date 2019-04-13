@@ -1,0 +1,13 @@
+[{
+	"title":"Group Discussion",
+	"activityType":"assignment",
+	"questions":[
+		{
+		"max_marks":10,
+		"graded": true,
+		"questionType":"fillintheblank",
+		"questionText":"Submit the summary for this Module"
+		}
+
+	]
+}]

@@ -1,0 +1,54 @@
+[{
+	"title": "Quiz-6",
+	"activityType": "quiz",
+	"quizDescription": [{
+				"text": "Choose the correct answer below"
+			}
+],
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Are \"risk factors\" the independent variables or the dependent variables in our model?"
+			}
+			
+		],
+			"max_marks": 1,
+			"options": [{
+					"option": "Independent Variables",
+					"correct": "True"
+				},
+				{
+					"option": "Dependent Variables",
+					"correct": "False"
+				},
+				{
+					"option": "Neither",
+					"correct": "False"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "In many situations, a dataset is handed to you and you are tasked with discovering which variables are important. But for the Framingham Heart Study, the researchers had to collect data from patients. In a situation like this one, where data needs to be collected by the researchers, should the potential risk factors be defined before or after the data is collected?"
+			}
+			
+		],
+			"max_marks": 1,
+			"options": [{
+					"option": "Before",
+					"correct": "True"
+				},
+				{
+					"option": "After",
+					"correct": "False"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+
+}]

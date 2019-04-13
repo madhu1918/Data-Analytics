@@ -1,0 +1,72 @@
+[{
+	"title": "Quiz-4",
+	"activityType": "quiz",
+	"quizDescription": [{
+				"text": "This question will ask about the following ROC curve:"
+			},
+			{
+              "image" : {
+                "imageName" : "",
+                  "imageSRC" : "image-5.png"
+              }
+            }
+],
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Given this ROC curve, which threshold would you pick if you wanted to correctly identify a small group of patients who are receiving the worst care with high confidence?"
+			}
+			
+		],
+			"max_marks": 1,
+			"options": [{
+					"option": "t=0.2",
+					"correct": "False"
+				},
+				{
+					"option": "t=0.3",
+					"correct": "False"
+				},
+				{
+					"option": "t=0.7",
+					"correct": "True"
+				},
+				{
+					"option": "t=0.8",
+					"correct": "False"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "Which threshold would you pick if you wanted to correctly identify half of the patients receiving poor care, while making as few errors as possible?"
+			}
+			
+		],
+			"max_marks": 1,
+			"options": [{
+					"option": "t=0.2",
+					"correct": "False"
+				},
+				{
+					"option": "t=0.3",
+					"correct": "True"
+				},
+				{
+					"option": "t=0.7",
+					"correct": "False"
+				},
+				{
+					"option": "t=0.8",
+					"correct": "False"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+
+}]

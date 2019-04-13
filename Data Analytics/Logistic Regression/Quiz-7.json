@@ -1,0 +1,75 @@
+[{
+	"title": "Quiz-7",
+	"activityType": "quiz",
+	"quizDescription": [{
+				"text": "In the previous video, we computed the following confusion matrix for our logistic regression model on our test set with a threshold of 0.5:"
+			},
+			{
+              "image" : {
+                "imageName" : "",
+                  "imageSRC" : "image-6.png"
+              }
+            },
+            {
+				"text": "Using this confusion matrix, answer the following questions."
+			}
+],
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "What is the sensitivity of our logistic regression model on the test set, using a threshold of 0.5?"
+			}
+			
+		],
+			"max_marks": 1,
+			"options": [{
+					"option": "0.05555554",
+					"correct": "False"
+				},
+				{
+					"option": "0.05555555",
+					"correct": "False"
+				},
+				{
+					"option": "0.05555556",
+					"correct": "True"
+				},
+				{
+					"option": "0.05555557",
+					"correct": "False"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "What is the specificity of our logistic regression model on the test set, using a threshold of 0.5?"
+			}
+			
+		],
+			"max_marks": 1,
+			"options": [{
+					"option": "0.9944186",
+					"correct": "True"
+				},
+				{
+					"option": "0.9944187",
+					"correct": "False"
+				},
+				{
+					"option": "0.9944188",
+					"correct": "False"
+				},
+				{
+					"option": "0.9944189",
+					"correct": "False"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+
+}]

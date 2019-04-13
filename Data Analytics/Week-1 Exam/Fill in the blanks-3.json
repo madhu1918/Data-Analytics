@@ -1,0 +1,73 @@
+[{
+	"title": "Fill in the blanks-3",
+	"activityType": "quiz",
+	"quizDescription": [{ 
+			"text": "<b>Answer the following questions.Write the correct option in the textbox.</b>"
+		}
+	],
+
+	"questions": [{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"R^2 value is between 0 and 1 and R^2= 0 means a perfect predictive model and R2=1 means no improvement over baseline<br>1. True<br>2. False"
+				}
+			],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"R^2 is unitless and universally interpretable<br>a. True<br>b. False"
+				}
+			],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":" Best model coefficients selected to minimize SSE for a linear regression model.<br>a. True<br>b. False"
+				}
+			],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"Linear regression would predict a continuous outcome whereas Logistic regression would predict a discrete (categorical) outcome.<br>a. True<br>b. False"
+				}
+		],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"If area under ROC curve is 1 then it would be a perfect prediction<br>a. True<br>b. False"
+				}
+			],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"Match the following for classification algorithms: 2 marks"
+				},
+				{
+              "image" : {
+                "imageName" : "",
+                  "imageSRC" : "image-3.png"
+              }
+            },
+            {
+					"text":"a. 1-b, 2-a,3-d,4-c,5-e,6-f<br>b. 1-a, 2-b,3-c,4-d,5-f,6-e<br>c. 1-e, 2-c,3-b,4-a,5-d,6-f<br>d. 1-a, 2-b,3-c,4-d,5-e,6-f"
+				}
+			],
+			"max_marks": 2
+		}
+	]
+}]

@@ -1,0 +1,77 @@
+[{
+	"title": "Quiz-1",
+	"activityType": "quiz",
+	"quizDescription": [{
+		"text": "Choose the correct answer"
+	}],
+	"questions": [{
+			"questionType": "checkbox",
+			"questionText": [{
+				"text": "Which of the following dependent variables are categorical? (Select all that apply.)"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "Deciding whether to buy, sell, or hold a stock",
+					"correct": "True"
+				},
+				{
+					"option": "The weekly revenue of a company",
+					"correct": "False"
+				},
+				{
+					"option": "The winner of an election with two candidates",
+					"correct": "True"
+				},
+				{
+					"option": "The day of the week with the highest revenue",
+					"correct": "True"
+				},
+				{
+					"option": "The number of daily car thefts in New York City",
+					"correct": "False"
+				},
+				{
+					"option": "Whether or not revenue will exceed $50,000",
+					"correct": "True"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "checkbox",
+			"questionText": [{
+				"text": "Which of the following dependent variables are binary? (Select all that apply."
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "Deciding whether to buy, sell, or hold a stock",
+					"correct": "False"
+				},
+				{
+					"option": "The weekly revenue of a company",
+					"correct": "False"
+				},
+				{
+					"option": "The winner of an election with two candidates",
+					"correct": "True"
+				},
+				{
+					"option": "The day of the week with the highest revenue",
+					"correct": "False"
+				},
+				{
+					"option": "The number of car thefts in New York City",
+					"correct": "False"
+				},
+				{
+					"option": "Whether or not revenue will exceed $50,000",
+					"correct": "True"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+
+}]

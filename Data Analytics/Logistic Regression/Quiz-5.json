@@ -1,0 +1,41 @@
+[{
+	"title": "Quiz-5",
+	"activityType": "quiz",
+	"quizDescription": [{
+		"text": "Choose the correct answer below"
+	}],
+	"questions": [{
+		"questionType": "checkbox",
+		"questionText": [{
+				"text": "Why was the city of Framingham, Massachusetts selected for this study? Select all that apply."
+			}
+
+		],
+		"max_marks": 1,
+		"options": [{
+				"option": "It represented all types of people in the United States.",
+				"correct": "False"
+			},
+			{
+				"option": "It had an appropriate size.",
+				"correct": "True"
+			},
+			{
+				"option": "It had a stable population to observe over time.",
+				"correct": "True"
+			},
+			{
+				"option": "It contained an abnormally large number of people with heart disease.",
+				"correct": "False"
+			},
+			{
+
+				"option": "The doctors and residents in Framingham were willing to participate.",
+				"correct": "True"
+			}
+		],
+		"correct_feedback": "Correct",
+		"wrong_feedback": "Incorrect"
+	}]
+
+}]

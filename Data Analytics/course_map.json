@@ -82,7 +82,7 @@
             "overview": [],
             "title": "Linear Regression"
         },
-                {
+        {
             "activities": [
                 "Video on Welcome to Recitation on Linear Regresion",
                 "Video on The Data",
@@ -98,6 +98,49 @@
             "learningObjectives": [],
             "overview": [],
             "title": "Linear Regression (Recitations and Assignments)"
+        },
+        {
+            "activities": [
+                "Video on Introduction to Logistic Regression",
+                "Video on Replicating Expert Assessment",
+                "Video on Building the Dataset",
+                "Quiz-1",
+                "Video on Logistic Regression",
+                "Quiz-2",
+                "Video on Logistic Regression in R",
+                "Video on Thresholding",
+                "Quiz-3",
+                "Quiz-4",
+                "Video on Interpreting the Model",
+                "Video on The Analytics Edge",
+                "Video on The Framingham Heart Study",
+                "Quiz-5",
+                "Video on Risk Factors",
+                "Quiz-6",
+                "Video on A Logistic Regression Model",
+                "Quiz-7",
+                "Video on Validating the Model",
+                "Quiz-8",
+                "Video on Interventions",
+                "Quiz-9",
+                "Video on Overall Impact",
+                "Assignment-1"
+            ],
+            "learningObjectives": [],
+            "overview": [],
+            "title": "Logistic Regression"
+        },
+        {
+            "activities": [
+                "Fill in the blanks-1",
+                "Fill in the blanks-2",
+                "Fill in the blanks-3",
+                "Assignment-1",
+                "Assignment-2"
+            ],
+            "learningObjectives": [],
+            "overview": [],
+            "title": "Week-1 Exam"
         }
     ]
 }

@@ -1,0 +1,55 @@
+[{
+	"title": "Fill in the blanks-1",
+	"activityType": "quiz",
+	"quizDescription": [{ 
+			"text": "<b>Answer the following questions.Write the correct option in the textbox.</b><br><br>For Linear Regression model select the correct option : (note: N is the units of dependent variable) 5 * ½ =  2.5"
+		}
+	],
+
+	"questions": [{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"SSE <br><br>a. Depends on N<br>b. Normalized by N<br>c. Predicts same outcome<br>d. captures value added from using linear regression model<br>e. Sum of all (RSS at each leaf ) +S (S is the number of splits)"
+				}
+			],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"RMSE <br><br>a. Depends on N<br>b. Normalized by N<br>c. Predicts same outcome<br>d. captures value added from using linear regression model<br>e. Sum of all (RSS at each leaf ) +S (S is the number of splits)"
+				}
+			],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"Baseline model <br><br>a. Depends on N<br>b. Normalized by N<br>c. Predicts same outcome<br>d. captures value added from using linear regression model<br>e. Sum of all (RSS at each leaf ) +S (S is the number of splits)"
+				}
+			],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"R^2 (R Square) <br><br>a. Depends on N<br>b. Normalized by N<br>c. Predicts same outcome<br>d. captures value added from using linear regression model<br>e. Sum of all (RSS at each leaf ) +S (S is the number of splits)"
+				}
+		],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"Complexity parameter (CP) <br><br>a. Depends on N<br>b. Normalized by N<br>c. Predicts same outcome<br>d. captures value added from using linear regression model<br>e. Sum of all (RSS at each leaf ) +S (S is the number of splits)"
+				}
+			],
+			"max_marks": 0.5
+		}
+	]
+}]

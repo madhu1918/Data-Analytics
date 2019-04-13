@@ -1,0 +1,50 @@
+[{
+	"title": "Assignment-2",
+	"activityType": "quiz",
+	"quizDescription": [{ 
+			"text": "<b>Note: This is an open book exam. Answer all the questions</b>"
+		},
+		{
+			"text": "Data Set :"
+		},
+		{
+				"attachment": ["machine.csv"]
+		},
+		{
+			"text": "Linear Regression Problems<br>Submit the answers in the R file as comments by mentioning the problem number."
+		}
+	],
+
+	"questions": [{
+			"questionType": "filesubmission",
+			"max_marks":9,
+			"graded": true,
+			"questionText": [
+				{
+					"text":"Compute the model R<sup>2</sup> (the \"Multiple R-squared\" value)? Consider the entire dataset as training dataset  (1Mark)"
+				},
+				{
+					"text":"<br>Which variables are significant in the model? We will consider a variable significant only if the p-value is below 0.05. 1Mark"
+				},
+				{
+					"text":"<br>Compute the correlations between all the variables in the training set. Which of the following independent variables is MMAX highly correlated with (absolute correlation greater than 0.7)?1Mark"
+				},
+				{
+					"text":"<br>Which  of the  independent variable is highly correlated with PRP?  1Mark"
+				},
+				{
+					"text":"<br>Given that the correlations are so high, let us focus on the MMAX variable and build a model with only variables which have correlation is between -0.3 to 0.3 with MMAX. Compute the coefficient of MMAX in this reduced model.1Mark"
+				},
+				{
+					"text":"<br>Compute the above reduced model R<sup>2</sup> :  1Mark"
+				},
+				{
+					"text":"<br>Compute the R<sup>2</sup> value of the model produced by the step function.1Mark"
+				},
+				{
+					"text":"<br>Split your data set into train and test sets(75: 25). Compute the testing set R2 using the model produced from the step function on trained data set. (Set seed = 6) 2 Marks<br><br>Submit the R file for this section ;(9 Marks)"
+				}
+			]
+		}
+	]
+}]

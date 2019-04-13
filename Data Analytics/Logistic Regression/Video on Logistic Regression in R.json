@@ -1,0 +1,16 @@
+[
+	{
+		"title":"Video on Logistic Regression in R",
+		"activityType":"youtubevideo",
+		"videoURL":"bX2Uqu2uDpE"
+	},
+	{
+	"title":"Logistic Regression in R",
+	"activityType": "reading",
+	"quizDescription": [
+		{
+			"text": "In this video, we'll be using the dataset <a href=\"https://prod-edxapp.edx-cdn.org/assets/courseware/v1/cbb7baaf6c8a0559bb6a4549ad194ab8/asset-v1:MITx+15.071x+3T2018+type@asset+block/quality.csv\">quality.csv</a> to build a logistic regression model in R. Please download this file to follow along."
+		}
+	]
+	}
+]

@@ -1,0 +1,73 @@
+[{
+	"title": "Fill in the blanks-2",
+	"activityType": "quiz",
+	"quizDescription": [{ 
+			"text": "<b>Answer the following questions.Write the correct option in the textbox.</b>"
+		}
+	],
+
+	"questions": [{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"Match the following: (1mark)"
+				},
+				{
+              "image" : {
+                "imageName" : "",
+                  "imageSRC" : "image-1.png"
+              }
+            },
+            {
+					"text":"a. a – i , b – ii, c – iii<br>b. a – ii , b – i, c – iii<br>c. a – iii, b – ii, c – i<br>d. a - ii, b - iii, c- i<br>e. None of the above"
+				}
+			],
+			"max_marks": 1
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"Suppose the multiple R^2 value for a linear regression model using year and price as the independent variables was 0.81; which of the following multiple R^2 values are possible if WinterRain was added as an independent variable? (1 mark)<br><br>a. 0.76<br>b. 0.50<br>c. 0.82<br>d. 0.80"
+				}
+			],
+			"max_marks": 1
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"Which of the following is not related to Logistic regression? (0.5 mark)<br>a. ROC curve<br>b. R^2 value<br>c. Threshold<br>d. Confusion Matrix"
+				}
+			],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"In the following ROC cure, where a prediction of 1 implies good patient care at a hospital and a prediction of 0 implies poor care, which threshold value would you be likely choose for getting a satisfactory analysis of patients data? (1 mark)"
+				},
+				{
+              "image" : {
+                "imageName" : "",
+                  "imageSRC" : "image-2.png"
+              }
+            },
+            {
+					"text":"a. 0.7<br>b. 0.8<br>c. 0.3<br>d. 0.1"
+				}
+		],
+			"max_marks": 1
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":" Using all available variables in a linear regression model may cause overfitting i.e. the model achieves high R^2 on data, but performs bad on unseen data<br>a. True<br>b. False"
+				}
+			],
+			"max_marks": 0.5
+		}
+	]
+}]
