@@ -1,0 +1,17 @@
+[
+	{
+		"title":"Video on World Maps in R",
+		"activityType":"youtubevideo",
+		"videoURL":"5SKMxdvAATM"
+	},
+
+	{
+	"title":"World Maps in R",
+	"activityType": "reading",
+	"quizDescription": [
+		{
+			"text": "In this video, we'll use the dataset <a href=\"https://prod-edxapp.edx-cdn.org/assets/courseware/v1/852336ce4a129920a57e7207ff882fb0/asset-v1:MITx+15.071x+1T2019+type@asset+block/intlall.csv\">intlall.csv</a>.  Please download this file to your computer, and save it to a location that you will remember. This data comes from the <a href=\"http://web.mit.edu/iso/\">MIT International Students Office.</a>"
+		}
+	]
+	}
+]

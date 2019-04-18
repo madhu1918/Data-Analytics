@@ -1,0 +1,16 @@
+[
+	{
+		"title":"Video on Pre-Processing in R",
+		"activityType":"youtubevideo",
+		"videoURL":"yM7GPdXnRWg"
+	},
+	{
+	"title":"Pre-Processing in R",
+	"activityType": "reading",
+	"quizDescription": [
+		{
+			"text": "In the rest of this lecture, we'll be using the dataset <a href=\"https://prod-edxapp.edx-cdn.org/assets/courseware/v1/15d60df8e1e31cd062da4535a753eaf9/asset-v1:MITx+15.071x+1T2019+type@asset+block/tweets.csv\">tweets.csv</a>. Please download and save this dataset to your computer. An R script file with all of the commands we will be using in the lecture can be downloaded <a href=\"https://prod-edxapp.edx-cdn.org/assets/courseware/v1/a8fb387bb7089981a3181776f15e1b12/asset-v1:MITx+15.071x+1T2019+type@asset+block/Unit5_Twitter.R\">here.</a>Note that as the package versions have changed since the recording of the videos, some of the functions are different from those in the videos. Please use the script file functions when there is such a discrepancy.<br><br>This data is provided courtesy of <a href=\"https://twitter.com/\">Twitter</a> and appropriate use of the data includes the following:<br><br>a. The dataset tweets.csv is for use in this course only, and you may not redistribute or reuse this data for any purpose unrelated to this course.<br>b. You may not extract personal information from the data or use it to identify individuals.<br>c. You may not publically display any data in tweets.csv, or distribute tweets.csv to any third parties not participating in this course.<br>d. At the conclusion of this course, you must permanently delete tweets.csv from your computer."
+		}
+	]
+	}
+]

@@ -1,0 +1,50 @@
+ [{
+	"title": "Quiz-2",
+	"activityType": "quiz",
+	"quizDescription": [
+		{
+		"text":"<b>Let's consider a recommendation system on Amazon.com, an online retail site.</b>"
+	}
+	],
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "If Amazon.com constructs a recommendation system for books, and would like to use the same exact algorithm for shoes, what type would it have to be?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "Collaborative Filtering ",
+					"correct": "True"
+				},
+
+				{
+					"option": "Content Filtering",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		},
+		{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "If Amazon.com would like to suggest books to users based on the previous books they have purchased, what type of recommendation system would it be?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "Collaborative Filtering ",
+					"correct": "False"
+				},
+
+				{
+					"option": "Content Filtering",
+					"correct": "True"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+}]

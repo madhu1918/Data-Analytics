@@ -1,0 +1,34 @@
+ [{
+	"title": "Quiz-3",
+	"activityType": "quiz",
+	"quizDescription": [
+		{
+		"text":"<b>Choose the correct answer below</b>"
+	}
+	],
+	"questions": [{
+			"questionType": "checkbox",
+			"questionText": [{
+				"text": "In the previous video, we discussed how clustering is used to split the data into similar groups. Which of the following tasks do you think are appropriate for clustering? Select all that apply."
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "Dividing search results on Google into categories based on the topic ",
+					"correct": "True"
+				},
+
+				{
+					"option": "Grouping players into different \"types\" of basketball players that make it to the NBA ",
+					"correct": "True"
+				},
+
+				{
+					"option": "Predicting the winner of the Major League Baseball World Series",
+					"correct": "False"
+				}
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+}]

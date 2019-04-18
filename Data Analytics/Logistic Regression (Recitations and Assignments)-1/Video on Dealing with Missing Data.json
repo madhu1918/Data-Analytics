@@ -1,0 +1,16 @@
+[
+	{
+		"title":"Video on Dealing with Missing Data",
+		"activityType":"youtubevideo",
+		"videoURL":"ctJjiuybqdk"
+	},
+	{
+	"title":"Dealing with Missing Data",
+	"activityType": "reading",
+	"quizDescription": [
+		{
+			"text": "In this recitation, we will be using the dataset <a href=\"https://prod-edxapp.edx-cdn.org/assets/courseware/v1/7ef909e056066106079c29e1e847abb1/asset-v1:MITx+15.071x+3T2018+type@asset+block/PollingData.csv\">PollingData.csv</a>. Please download this dataset to your computer, and save it in a location that you can easily navigate to in R. This data comes from<a href=\"http://www.realclearpolitics.com/\">RealClearPolitics.com</a>"
+		}
+	]
+	}
+]

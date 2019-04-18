@@ -1,0 +1,40 @@
+ [{
+	"title": "Quiz-1",
+	"activityType": "quiz",
+	"quizDescription": [
+		{
+		"text":"<b>Choose the correct answer below</b>"
+	}
+	],
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": [{
+				"text": "About how many years did it take for a team to submit a 10% improvement over Cinematch?"
+			}],
+			"max_marks": 1,
+			"options": [{
+					"option": "0.5",
+					"correct": "False"
+				},
+
+				{
+					"option": "1.5",
+					"correct": "False"
+				},
+
+				{
+					"option": "2.5",
+					"correct": "True"
+				},
+
+				{
+					"option": "3.5",
+					"correct": "False"
+				}
+
+			],
+			"correct_feedback": "Correct",
+			"wrong_feedback": "Incorrect"
+		}
+	]
+}]

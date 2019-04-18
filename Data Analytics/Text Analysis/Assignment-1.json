@@ -1,0 +1,12 @@
+[{
+	"title": "Assignment-1",
+	"activityType": "assignment",
+	"questions": [{
+			"questionType": "filesubmission",
+			"max_marks": 40,
+			"graded": true,
+			"questionText": "Complete the following 3 assignments from the link:<br> <a href=\"https://courses.edx.org/courses/course-v1:MITx+15.071x+1T2019/courseware/78a8f19e5e54432a938ae62dc0246780/ac54e7a579bd44258ab0b446ac8091c4/?child=first\">Assignments</a>.<br>1. Detecting Vandalism on Wikipedia<br>2. Automating Reviews in Medicine<br>3. Separating Spam from Ham (Part 1)<br>4. Separating Spam from Ham (Part 2-OPTIONAL)<br><br>Submit the R files for these assignments."
+		}
+
+	]
+}]

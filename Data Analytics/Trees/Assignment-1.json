@@ -1,0 +1,13 @@
+[{
+	"title":"Assignment-1",
+	"activityType":"assignment",
+	"questions":[
+		{
+		"questionType":"filesubmission",
+		"max_marks":40,
+		"graded": true,
+		"questionText":"Complete the following 3 assignments from the link:<br> <a href=\"https://courses.edx.org/courses/course-v1:MITx+15.071x+1T2019/courseware/3372864201764d6d9f63931920e5152e/ab08d73980f046479d3bcd105a55b0c2/1?activate_block_id=block-v1%3AMITx%2B15.071x%2B1T2019%2Btype%40vertical%2Bblock%4087d34e0e7c9146d09249c7831617a49d\">Assignments</a>.<br>1. Understanding Why People Vote<br>2. Letter Recognition<br>3. Predicting Earnings from Census Data<br>4. State Data Revisted (OPTIONAL)<br><br>Submit the R files of the assignments you have solved this module."
+		}
+
+	]
+}]

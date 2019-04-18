@@ -1,0 +1,11 @@
+[
+	{
+	"title":"Solve the following problems from the given links:",
+	"activityType": "reading",
+	"quizDescription": [
+		{
+			"text": "1.  <a href=\"https://courses.edx.org/courses/course-v1:MITx+15.071x+3T2018/courseware/5893e4c5afb74898b8e7d9773e918208/26c038071b0743e99651501cb5a050dd/1?activate_block_id=block-v1%3AMITx%2B15.071x%2B3T2018%2Btype%40vertical%2Bblock%40eb1d6a5d8853425098f74497ca72fece\">Predicting Loan Repayment</a>.<br>2. <a href=\"https://courses.edx.org/courses/course-v1:MITx+15.071x+3T2018/courseware/5893e4c5afb74898b8e7d9773e918208/26c038071b0743e99651501cb5a050dd/1?activate_block_id=block-v1%3AMITx%2B15.071x%2B3T2018%2Btype%40vertical%2Bblock%40eb1d6a5d8853425098f74497ca72fece\">Predicting the Baseball World Series Champion</a>"
+		}
+	]
+	}
+]

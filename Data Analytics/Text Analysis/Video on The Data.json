@@ -1,0 +1,16 @@
+[
+	{
+		"title":"Video on The Data",
+		"activityType":"youtubevideo",
+		"videoURL":"tBZGLiunQwM"
+	},
+	{
+	"title":"The Data",
+	"activityType": "reading",
+	"quizDescription": [
+		{
+			"text": "In this recitation, we'll be using the dataset <a href=\"https://prod-edxapp.edx-cdn.org/assets/courseware/v1/0aa8d267819eed19111e3d9e06811745/asset-v1:MITx+15.071x+1T2019+type@asset+block/energy_bids.csv\">energy_bids.csv</a>. Please download and save this dataset to your computer so that you can follow along. This data comes from the 2010 <a href=\"http://trec-legal.umiacs.umd.edu/\">TREC Legal Track</a> <br><br>An R script file with all of the commands we will be using in this recitation can be downloaded <a href=\"https://prod-edxapp.edx-cdn.org/assets/courseware/v1/504afb869d64d356e3cce36472c2ab50/asset-v1:MITx+15.071x+1T2019+type@asset+block/Unit5_Recitation.R\">here</a>. The R script file has been updated to using the most recent package functions, therefore some may be different from the functions in the videos."
+		}
+	]
+	}
+]

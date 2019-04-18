@@ -1,0 +1,16 @@
+[
+	{
+		"title":"Video on Claims Data in R",
+		"activityType":"youtubevideo",
+		"videoURL":"9cjPy7lMaKA"
+	},
+	{
+	"title":"Claims Data in R",
+	"activityType": "reading",
+	"quizDescription": [
+		{
+			"text": "In the next few videos, we'll be using the dataset <a href=\"https://prod-edxapp.edx-cdn.org/assets/courseware/v1/1118f7556bc4faccd180540e7ee7b83a/asset-v1:MITx+15.071x+3T2018+type@asset+block/ClaimsData.csv.zip\">ClaimsData.csv.zip</a>.  Please download the dataset to follow along. Note that this file is in ZIP format due to its large size. You will need to decompress (or unzip) the file before loading it into R.<br><br>This data comes from the <a href=\"http://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/SynPUFs/DE_Syn_PUF.html\">DE-SynPUF dataset</a> published by the United States Centers for Medicare and Medicaid Services (CMS).<br><br>An R script file with all of the R commands used in this lecture can be downloaded <a href=\"https://prod-edxapp.edx-cdn.org/assets/courseware/v1/1767b7ceb4d3a860c30db45a2a6d97a7/asset-v1:MITx+15.071x+3T2018+type@asset+block/Unit4_D2Hawkeye.R\">here</a>"
+		}
+	]
+	}
+]

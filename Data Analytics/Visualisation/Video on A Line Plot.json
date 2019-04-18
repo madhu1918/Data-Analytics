@@ -1,0 +1,16 @@
+[
+	{
+		"title":"Video on A Line Plot",
+		"activityType":"youtubevideo",
+		"videoURL":"FHJ1G4fdoLk"
+	},
+	{
+	"title":"A Line Plot",
+	"activityType": "reading",
+	"quizDescription": [
+		{
+			"text": " <a href=\"https://prod-edxapp.edx-cdn.org/assets/courseware/v1/52e7a3316f93ef4e5576fd6ff3ef0e98/asset-v1:MITx+15.071x+1T2019+type@asset+block/mvt.csv\">mvt.csv</a>. Please download this dataset before starting this video. This data comes from the<a href=\"http://gis.chicagopolice.org/\">Chicago Police Department</a><br><br>An R script file with all of the commands used in this lecture can be downloaded <a href=\"https://prod-edxapp.edx-cdn.org/assets/courseware/v1/cd725b84665d15e8e09dd2acd2429b41/asset-v1:MITx+15.071x+1T2019+type@asset+block/Unit7_Crime.R\">here</a>"
+		}
+	]
+	}
+]

@@ -1,0 +1,16 @@
+[
+	{
+		"title":"Video on Clustering Pixels",
+		"activityType":"youtubevideo",
+		"videoURL":"Un3iAv_-veo"
+	},
+	{
+	"title":"Clustering Pixels",
+	"activityType": "reading",
+	"quizDescription": [
+		{
+			"text": "n this Recitation, we'll be using the following data files: <a href=\"https://prod-edxapp.edx-cdn.org/assets/courseware/v1/5d4f55557fd8f644b68c1d147b4501d5/asset-v1:MITx+15.071x+3T2018+type@asset+block/flower.csv\">flower.csv</a>, <a href=\"https://prod-edxapp.edx-cdn.org/assets/courseware/v1/986ecd3e289a59c8a8c1ebdd8559b99e/asset-v1:MITx+15.071x+3T2018+type@asset+block/healthy.csv\">healthy.csv</a> and <a href=\"https://prod-edxapp.edx-cdn.org/assets/courseware/v1/e4d303da53c93dfaca745ad1236e7d53/asset-v1:MITx+15.071x+3T2018+type@asset+block/tumor.csv\">tumor.csv</a>. Please download these files to your computer to following along. <br><br> An R script file with all of the commands used in this Recitation can be downloaded  <a href=\"https://prod-edxapp.edx-cdn.org/assets/courseware/v1/1d8073210809ffb60bfc28a99eccf447/asset-v1:MITx+15.071x+3T2018+type@asset+block/Unit6_Recitation.R\">here</a>"
+		}
+	]
+	}
+]

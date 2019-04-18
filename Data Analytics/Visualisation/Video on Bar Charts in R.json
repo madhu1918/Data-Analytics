@@ -1,0 +1,16 @@
+[
+	{
+		"title":"Video on Bar Charts in R",
+		"activityType":"youtubevideo",
+		"videoURL":"BEyn7aHFw_I"
+	},
+	{
+	"title":"Bar Charts in R",
+	"activityType": "reading",
+	"quizDescription": [
+		{
+			"text": "we'll be using the data file <a href=\"https://prod-edxapp.edx-cdn.org/assets/courseware/v1/fe5cc6ffea020d1166df97e9c2bd7f5c/asset-v1:MITx+15.071x+1T2019+type@asset+block/intl.csv\">intl.csv</a>.  Please download this file to your computer, and save it to a location that you will remember. This data comes from the <a href=\"http://web.mit.edu/iso/\">MIT International Students Office.</a><br><br>An R script file with all of the commands used in this recitation can be downloaded <a href=\"https://prod-edxapp.edx-cdn.org/assets/courseware/v1/79ea2dd09a0df81ef817b7f674faf01a/asset-v1:MITx+15.071x+1T2019+type@asset+block/Unit7_Recitation.R\">here</a>"
+		}
+	]
+	}
+]

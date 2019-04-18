@@ -1,0 +1,16 @@
+[
+	{
+		"title":"Video on The Data",
+		"activityType":"youtubevideo",
+		"videoURL":"ia8iFTwbCIU"
+	},
+	{
+	"title":"The Data",
+	"activityType": "reading",
+	"quizDescription": [
+		{
+			"text": "In this recitation, Iain will be using the dataset <a href=\"https://prod-edxapp.edx-cdn.org/assets/courseware/v1/b4b8de7d91d9256d4aa4bc1620e7a05c/asset-v1:MITx+15.071x+3T2018+type@asset+block/boston.csv\">boston.csv</a>.  to predict housing prices in Boston. Please download this dataset to follow along in this recitation. This data comes from the<a href=\"http://archive.ics.uci.edu/ml/datasets/Housing\">UCI Machine Learning Repository</a> An R script file with all of the R commands used in this recitation can be downloaded <a href=\"https://prod-edxapp.edx-cdn.org/assets/courseware/v1/13a1381c800e4ca02c66ef2dffba730b/asset-v1:MITx+15.071x+3T2018+type@asset+block/Unit4_Recitation.R\">here</a>"
+		}
+	]
+	}
+]

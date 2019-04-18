@@ -1,0 +1,16 @@
+[
+	{
+		"title":"Video on Using Line Charts Instead",
+		"activityType":"youtubevideo",
+		"videoURL":"PB1ItpfNCEo"
+	},
+	{
+	"title":"Using Line Charts Instead",
+	"activityType": "reading",
+	"quizDescription": [
+		{
+			"text": "In this video, we'll be using the dataset <a href=\"https://prod-edxapp.edx-cdn.org/assets/courseware/v1/b94d2dd1b93bf5c3cc377f44294f8583/asset-v1:MITx+15.071x+1T2019+type@asset+block/households.csv\">households.csv</a>.  Please download this file to your computer, and save it to a location that you will remember. This data comes from the <a href=\"http://www.census.gov/\"> U.S. Census Bureau.</a><br><br>We'll be using the package \"reshape2\" in this video. It should already be installed for you (it was a dependency of an earlier package), but if the melt function does not work properly for you in this video, go ahead and install and load the package with the commands:<br><br>install.packages(\"reshape2\")<br><br>library(reshape2)"
+	}
+	]
+	}
+]

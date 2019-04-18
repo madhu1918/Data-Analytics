@@ -1,0 +1,12 @@
+[{
+	"title": "Assignment-1",
+	"activityType": "assignment",
+	"questions": [{
+			"questionType": "filesubmission",
+			"max_marks": 40,
+			"graded": true,
+			"questionText": "Complete the following 3 assignments from the link<br> <a href=\"https://courses.edx.org/courses/course-v1:MITx+15.071x+1T2019/courseware/d32b0c36ff484c228b8117257349d0e6/27bfa0a7d1304080a09965a5773c16f3/1?activate_block_id=block-v1%3AMITx%2B15.071x%2B1T2019%2Btype%40vertical%2Bblock%40c8e3e3e650a1447b96857eeb74fd4ca8\">Assignments</a>.<br>1. Document Clustering with Daily Kos<br>2. Market Segmentation for Airlines<br>3. Predicting Stock Returns with Cluster-Then-Predict<br><br>Submit the R files for these assignments."
+		}
+
+	]
+}]
