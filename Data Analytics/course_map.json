@@ -291,6 +291,17 @@
             "learningObjectives": [],
             "overview": [],
             "title": "Visualisation"
+        },
+        {
+            "activities": [
+                "Fill in the blanks-1",
+                "Fill in the blanks-2",
+                "Fill in the blanks-3",
+                "Assignment-1"
+            ],
+            "learningObjectives": [],
+            "overview": [],
+            "title": "Week-2 Exam"
         }
     ]
 }

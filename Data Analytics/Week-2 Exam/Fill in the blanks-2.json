@@ -1,0 +1,54 @@
+[{
+	"title": "Fill in the blanks-2",
+	"activityType": "quiz",
+	"quizDescription": [{
+		"text": "Instruction :<ol><li>This section is not an openbook.</li><li>On the screen recording software when you start this section</li><li>Write all the options in lower case, in case multiple options write as comma separated (x,y,z)</li></ol>"
+	}],
+
+	"questions": [{
+			"questionType": "fillintheblank",
+			"questionText": [{
+				"text": "Which of the following models can be used to predict sentiment during text analysis?<br>a. Logistic regression<br>b. Random Forest<br>c. CART<br>d. All of the above"
+			}],
+			"max_marks": 1
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [{
+				"text": "What type of filtering would you use if MSIT was to start suggesting courses based on grades obtained in subjects (new courses have similar content as the old ones)?<br>a. Collaborative<br>b. Hybrid<br>c. Content-based<br>d. None of the above"
+			}],
+			"max_marks": 1
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [{
+					"text": "How many clusters would you split a dataset into, given its Dendrogram as follows"
+				},
+				{
+					"image": {
+						"imageName": "",
+						"imageSRC": "image-2.png"
+					}
+				},
+				{
+					"text": "a. 1, because all points fall in the cluster<br>b. 2, because there is a large distance between these two clusters<br>c. 10, because each data point is a cluster<br>d. None of the above"
+				}
+			],
+			"max_marks": 1
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [{
+				"text": "True or False : Classification trees, regression trees can capture nonlinearities.<br>a. True<br>b. False"
+			}],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [{
+				"text": "True or False : Complex parameter  for trees to be high for good performance of trees.<br>a. True<br>b. False"
+			}],
+			"max_marks": 0.5
+		}
+	]
+}]

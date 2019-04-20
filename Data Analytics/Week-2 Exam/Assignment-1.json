@@ -1,0 +1,17 @@
+[{
+	"title": "Assignment-1",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "filesubmission",
+			"max_marks":25,
+			"graded": true,
+			"questionText": [
+				{
+			"text": "Plese ind the document here"
+		},
+		{
+				"attachment": ["Data Analytics _ week-2 Exam Programming .docx"]
+		}
+	]
+		}]
+}]

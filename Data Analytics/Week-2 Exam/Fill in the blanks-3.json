@@ -1,0 +1,46 @@
+[{
+	"title": "Fill in the blanks-3",
+	"activityType": "quiz",
+	"quizDescription": [{ 
+			"text": "Instruction :<ol><li>This section is not an openbook.</li><li>On the screen recording software when you start this section</li><li>Write all the options in lower case, in case multiple options write as comma separated (x,y,z)</li></ol>"
+		}
+	],
+
+	"questions": [{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"For a high resolution image which clustering algorithm would be better?<br>a. Hierarchical<br>b. K-means"
+				}
+			],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"Movie Recommendation systems are an example of:<br>1. Classification<br>2. Clustering<br>3. Regression<br><br><br>a.  2 Only<br>b. 1 and 2<br>c. 1 and 3<br>d. 2 and 3<br>e. 1, 2 and 3"
+				}
+			],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"Can decision trees be used for performing clustering?<br>a. True<br>b. False"
+				}
+			],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"In Random forest you can generate hundreds of trees (say T1, T2 …..Tn) and then aggregate the results of these trees. Which of the following is true about individual(Tk) tree in Random Forest?<br>1. Individual tree is built on a subset of the features<br>2. Individual tree is built on all the features<br>3. Individual tree is built on a subset of observations<br>4. Individual tree is built on full set of observations<br><br><br>a. 1 and 3<br>b. 1 and 4<br>c. 2 and 3<br>d. 2 and 4"
+				}
+		],
+			"max_marks": 0.5
+		}
+	]
+}]

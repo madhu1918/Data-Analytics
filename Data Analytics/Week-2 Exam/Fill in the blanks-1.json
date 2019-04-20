@@ -1,0 +1,64 @@
+[{
+	"title": "Fill in the blanks-1",
+	"activityType": "quiz",
+	"quizDescription": [{ 
+			"text": "Instruction :<ol><li>This section is not an openbook.</li><li>On the screen recording software when you start this section</li><li>Write all the options in lower case, in case multiple options write as comma separated (x,y,z)</li></ol>"
+		}
+	],
+
+	"questions": [{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"Which of the following models is the most interpretable?<br>a. CART<br>b. Random Forests<br>c. Logistic Regression<br>d. All of the above"
+				}
+			],
+			"max_marks": 1
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"How many splits are in the following CART tree?"
+				},
+				{
+              "image" : {
+                "imageName" : "",
+                  "imageSRC" : "image-1.png"
+              }
+            },
+            {
+					"text":"a. 2<br>b. 4<br>c. 6<br>d. 8"
+				}
+			],
+			"max_marks": 0.5
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"Which parameter in r controls the number of splits of a CART model?<br>a. rpart<br>b. split<br>c. minbucket<br>d. Seed"
+				}
+			],
+			"max_marks": 1
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"Let us suppose the Amazon Mechanical Turk workers are perfect and will not make any mistake when labelling tweets as strongly negative (-2 score) , negative (-1 score), neutral (0 score), positive (1 score) and strongly positive (2 score), which of the following would be a more accurate measure of a product?<br>a, Average of the scores<br>b. Overall score maximum<br>c. Median of the scores<br>d. None of the above"
+				}
+		],
+			"max_marks": 1
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": [
+				{
+					"text":"Which of the following is not a step of pre-processing for text analysis?<br>a. Removing stop words<br>b. Cleaning up irregularities<br>c. Calculating threshold<br>d. Stemming"
+				}
+			],
+			"max_marks": 0.5
+		}
+	]
+}]
